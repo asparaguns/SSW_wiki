@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルはライセンスフリーです。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:フリーライセンスファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

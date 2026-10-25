@@ -1,0 +1,54 @@
+;解説
+:引用をマークアップするテンプレート。以下の構文のように、[[ヘルプ:テンプレートパラメータ|パラメータ]]を指定してください。ほとんどの項目は、内容が入力されていない場合には何も表示されません。
+
+:このテンプレートは[[Help:Lua|Lua言語]]でプログラムされています。詳細は[[w:c:dev:Global_Lua_Modules/Quote|グローバルLuaモジュールのページ (英語)]]からご覧いただけます。
+
+;必要なファイル
+* [[モジュール:Quote]]
+
+;構文
+<pre>
+{{Quote
+ | quote   = 
+ | speaker = 
+ | source  = 
+}}
+</pre>
+
+:{{t|Quote|引用文|著者|引用元}} のように、パラメータ名を書かなくても利用できます。
+
+;例
+{{Quote
+ | quote   = When you play the game of thrones, you win or you die.
+ | speaker = [[w:c:gameofthrones:Cersei Lannister|Cersei Lannister]]
+ | source  = [[w:c:gameofthrones:You Win or You Die|"You Win or You Die"]]
+}}
+<pre>
+{{Quote
+ | quote   = When you play the game of thrones, you win or you die.
+ | speaker = [[w:c:gameofthrones:Cersei Lannister|Cersei Lannister]]
+ | source  = [[w:c:gameofthrones:You Win or You Die|"You Win or You Die"]]
+}}
+</pre>
+または
+
+<pre>
+{{Quote
+ | When you play the game of thrones, you win or you die.
+ | [[w:c:gameofthrones:Cersei Lannister|Cersei Lannister]]
+ | [[w:c:gameofthrones:You Win or You Die|"You Win or You Die"]]
+}}
+</pre>
+
+;関連項目
+* [[w:c:ja.templates:Template:Quote/wikitext]] - ウィキテキストによる引用テンプレート
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>
+[[カテゴリ:テンプレート/引用| ]]
+[[カテゴリ:一般ウィキテンプレート]]
+<!-- [[en:Template:Quote]] -->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]
+</noinclude>

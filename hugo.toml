@@ -1,0 +1,21 @@
+baseURL = 'https://asparaguns.github.io/SSW_wiki/'
+title = 'The Sun Shining on the World Wiki'
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+enableRobotsTXT = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[params]
+  description = 'The Sun Shining on the World の設定・歴史・国家・人物資料Wiki'
+  originalWiki = 'https://ssw-mod.fandom.com/ja/'

@@ -1,0 +1,14 @@
+;解説
+:このテンプレートは記事の目次を右に浮かせます。通常目次が表示されない場合でも強制的に目次を表示します。
+:必要なときのみ使用してください。
+;構文
+:<code>{{t|tocright}}</code> と入力してください。 
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/ナビゲーション]]<!--
+[[en:Template:Tocright]]
+ -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

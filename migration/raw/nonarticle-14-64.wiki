@@ -1,0 +1,9 @@
+このカテゴリにはテンプレートの制限を超えたページがMediaWikiにより自動的に追加されています。[[wikipedia:ja:Help:テンプレートの制限|テンプレートの制限]]を参考にして、このカテゴリに含まれないように修正してください。
+
+__HIDDENCAT__
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:てんふれえとよみこみさいすかせいけんちをこえているへえし}}
+[[カテゴリ:メンテナンス]]
+<!-- 
+[[en:Category:Pages where template include size is exceeded]]
+-->

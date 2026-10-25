@@ -1,0 +1,76 @@
+<blockquote class="pull-quote">
+	<div class="pull-quote__text">{{{text|テキスト}}}</div>
+	<p style="text-align: right"><cite>—{{{speaker|スピーカー}}}{{#if:{{{receiver|}}}|, 宛 {{{receiver|}}}}}{{#if:{{{attribution|}}}|, {{{attribution|}}}}}{{#if:{{{source|}}}|, {{{source|}}}}}</cite></p>
+</blockquote>
+<noinclude>
+==説明==
+構成された引用を表示するために使われるテンプレートです。 構成された引用のフルポテンシャルを解き放つためには、このテンプレートの直接使用は控え、代わりに''<nowiki>{{#SQuote:}}</nowiki>'' マークアップをご検討下さい。
+構成された引用についてのエキストラ情報を https://community.fandom.com/wiki/Help:Structured_Quotes で見ます。
+
+==構文==
+<pre>
+{{StructuredQuote
+| text   =
+| speaker =
+| receiver =
+| attribution =
+| source  =
+}}
+</pre>
+
+==サンプル==
+{{StructuredQuote
+|text=サイズは何も違わん。そう思い込んどるだけだ。
+|speaker=[[w:c:ja.starwars:ヨーダ|ヨーダ]]
+|receiver=[[w:c:ja.starwars:ルーク・スカイウォーカー|ルーク・スカイウォーカー]]
+|source=[[w:c:ja.starwars:スター・ウォーズ エピソード5/帝国の逆襲|スター・ウォーズ エピソード5/帝国の逆襲]]
+}}
+<pre>
+{{StructuredQuote
+|text=サイズは何も違わん。そう思い込んどるだけだ。
+|speaker=[[ヨーダ]]
+|receiver=[[ルーク・スカイウォーカー]]
+|source=[[スター・ウォーズ エピソード5/帝国の逆襲]]
+}}
+</pre>
+
+== TemplateData ==
+
+<templatedata>
+	{
+		"params": {
+			"text": {
+				"label": "引用テキスト",
+				"description": "引用テキスト",
+				"type": "content",
+				"required": true
+			},
+			"speaker": {
+				"label": "引用された個人",
+				"description": "引用された言葉（wikiテキストのリンク、カンマ区切り）を発した、または書いた個人",
+				"type": "content",
+				"required": true
+			},
+			"receiver": {
+				"label": "引用で話された個人",
+				"description": "引用で話された（wikiテキストのリンク、カンマ区切り）個人",
+				"type": "content",
+				"suggested": true
+			},
+			"attribution": {
+				"label": "属性",
+				"description": "属性 (wikテキストのリンク、カンマ区切り)",
+				"type": "content",
+				"suggested": true
+			},
+			"source": {
+				"label": "引用ソース",
+				"description": "発言された場所（wikiテキストのリンク）",
+				"type": "content",
+				"suggested": true
+			}
+		},
+		"format": "block"
+	}
+</templatedata>
+</noinclude>

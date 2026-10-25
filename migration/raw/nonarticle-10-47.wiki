@@ -1,0 +1,30 @@
+;解説
+:入力例を表示するために使用できるパラメータの変数サンプル (0〜20) つきテンプレートリンク。
+
+;構文
+:{{t|t|パラメータ1|パラメータ2|パラメータ3|パラメータ4|...|パラメータ20|8=prefix=...}} <!-- self-referential examples! -->
+
+;使用例
+:<code><nowiki>{{t|infobox}}</nowiki></code> は次のようになります...
+:{{t|infobox}}
+:<code><nowiki>{{t|infobox|項目1|項目2|...}}</nowiki></code> は次のようになります...
+:{{t|infobox|項目1|項目2|...}}
+:<code><nowiki>{{t|infobox|2=引数1=項目1}}</nowiki></code> は次のようになります...
+:{{t|infobox|2=引数1=項目1}}
+:<code><nowiki>{{t|infobox|prefix=subst}}</nowiki></code> は次のようになります...
+:{{t|infobox|prefix=subst}}
+:<code><nowiki>{{t|infobox|style=code}}</nowiki></code> は次のようになります...
+:{{t|infobox|style=code}}
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:一般ウィキテンプレート]]
+<!--
+[[de:Vorlage:T]]
+[[en:Template:T]]
+[[es:Plantilla:P]]
+[[fr:Modèle:M]]
+[[zh:Template:T]]
+ -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

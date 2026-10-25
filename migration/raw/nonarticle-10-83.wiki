@@ -1,0 +1,17 @@
+;解説
+:このテンプレートはCC-BY-SAライセンスの画像を示すために使用します。
+
+;必要なファイル
+* [[テンプレート:MessageBox]]
+* [[:カテゴリ:CC-BY-SAファイル]]
+
+;構文
+:画像情報ページで<code>{{t|CC-BY-SA}}</code>と入力してください。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>
+[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]</noinclude>

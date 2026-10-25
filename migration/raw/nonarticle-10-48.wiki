@@ -1,0 +1,10 @@
+;解説
+:パラメータの断片のスタイルと外観を制御する {{t|t}} のパラメータの一部。
+;関連項目
+:WoWWikiにある[[w:c:wow:Template:T/piece|Template:T/piece]]
+
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]</noinclude>

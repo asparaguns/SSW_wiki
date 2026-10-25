@@ -1,0 +1,1 @@
+<includeonly>{{#if:{{{1|}}} | [{{{1}}} ゲーム発売元] | ゲーム発売元}}</includeonly><noinclude>{{documentation}}</noinclude>

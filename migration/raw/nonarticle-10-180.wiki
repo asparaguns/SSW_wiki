@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルはGFDLの元で提供されています。同ライセンスに必要とされる形式に沿っていない表紙、背表紙、不可変更部分を除いて、[[Wikipedia:ja:フリーソフトウェア財団|フリーソフトウェア財団]]によって発行された'''[[Wikipedia:ja:GNU Free Documentation License|GNU Free Documentation License]]'''（[http://www.opensource.jp/fdl/fdl.ja.html 日本語参考訳])のバージョン1.2またはそれ以降のライセンスの元で複製、再配布及び/または改変が許可されています。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:GFDLファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

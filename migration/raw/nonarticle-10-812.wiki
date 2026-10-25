@@ -1,0 +1,5 @@
+{{Navbox main|pagename=|name=[[国家一覧]] [[テンプレート:国家一覧|*]]
+|group1=<div class="non-indentation">'''大東亜共栄圏'''</div>
+|list1=<div class="non-indentation">[[ファイル:FLAG JAP.svg|20px|link=大日本帝国]] [[大日本帝国|日本]]</div><br>
+}}
+<noinclude></noinclude>

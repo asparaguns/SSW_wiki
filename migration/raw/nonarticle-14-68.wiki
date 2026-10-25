@@ -1,0 +1,18 @@
+存在しないファイルへのリンクがあるページの一覧です。このカテゴリは、[[mw:Help:Tracking_categories/ja|MediaWikiソフトウェアにより自動的に追加されます]]。
+
+__HIDDENCAT__
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:こわれたふあいるへのりんくかあるへえし}}
+[[カテゴリ:メンテナンス]]
+<!--
+[[de:Categoría:Páginas con enlaces rotos a archivos]]
+[[en:Category:Pages with broken file links]]
+[[es:Categoría:Páginas con enlaces rotos a archivos]]
+[[fr:Catégorie:Pages avec des liens de fichiers brisés]]
+[[it:Categoria:Pagine che includono file inesistenti]]
+[[nl:Categorie:Pagina's met onjuiste bestandsverwijzingen]]
+[[pl:Kategoria:Strony z odwołaniami do nieistniejących plików]]
+[[ru:Категория:Страницы с неработающими файловыми ссылками]]
+[[vi:Thể loại:Trang nhúng tập tin không tồn tại]]
+[[zh:Category:含有损坏文件链接的页面]]
+-->

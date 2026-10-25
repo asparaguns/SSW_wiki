@@ -1,0 +1,131 @@
+'''ハットノート''' (Hatnote) とは、記事の冒頭に置かれる短い注です。読み手が探しているであろう別の記事へのリンクを提示する際に使われます。
+ハットノートを使うことで、読み手が適切な情報を見つけだす手助けをすることができます。
+
+;必要なファイル
+* [[Module:Hatnote]]
+* [[Module:Hatnote/i18n]] (解説ページで使用)
+* [[Module:I18n]] (解説ページで使用)
+* [[:Category:{{#invoke:i18n|getMsg|Module:Hatnote/i18n|cat-errors|uselang = {{CONTENTLANG}} }}]]
+* [[:Category:{{#invoke:i18n|getMsg|Module:Hatnote/i18n|cat-unusual-parameters|uselang = {{CONTENTLANG}} }}]]
+
+; <span id="Hatnote">構文</span>
+;: 基本的な使い方
+ &#123;{hatnote|''テキスト''}}
+
+;: 全ての引数を使った場合
+ &#123;{hatnote|''テキスト''|extraclasses=''追加クラス''|selfref=''yes''|category=''no''}}
+
+; 引数 (パラメーター)
+このテンプレートでは、以下のパラメーターが使えます。
+* <code>1</code> - ハットノートのテキスト (必須)
+* <code>extraclasses</code> - 追加したいCSSのクラス
+* <span id="Selfref"> <code>selfref</code></span> - "yes"、"y"、"true" または "1" を指定すると、"selfref" というCSSクラスを追加します。[[wikipedia:ja:自己言及|自己言及]]であることを示す際に使われます。
+* <code>category</code> - "no"、"n"、"false" または "0" を指定すると、エラーによるメンテナンスカテゴリ ([[:Category:{{#invoke:i18n|getMsg|Module:Hatnote/i18n|cat-errors|uselang = {{CONTENTLANG}} }}]]) に属さないようにすることができます。先頭の引数 (ハットノートのテキスト) が省略された場合のみ有効です。
+
+; 使用例
+* <code><nowiki>{{hatnote|ハットノートのテキストを入力した例}}</nowiki></code> → {{hatnote| ハットノートのテキストを入力した例}}
+
+; 主なハットノート
+{{T|Main}} と {{T|Further}} は似ているテンプレートですが、前者は話題の核になる情報を、後者は話題の詳細情報を案内するために使われます。２つのテンプレートではほとんど同じ引数が使用できます。
+
+;{{T|Main}}: 記事が長くなると、その部分の話題を分割し、子記事を作成します。その際、元の記事では子記事の話題についての概要のみ記し、子記事へのリンクを示します。このテンプレートは、子記事についての概要を記した節 (セクション) で見出しに続けて使い、子記事にリンクするようにします。
+
+:;{{T|Main|メインページ}}  →:{{Main|メインページ}}
+:;{{T|Main|メインページ|メインページ}}  →:{{Main|メインページ|メインページ}}
+
+;{{T|Further}}: その話題のより詳しい情報に関する記事へのリンクに使われます。
+
+:;{{T|Further|メインページ}}  →:{{Further|メインページ}}
+:;{{T|Further|メインページ|メインページ}}  →:{{Further|メインページ|メインページ}}
+
+;{{T|See also}}: その話題に関連する追加情報となる記事へのリンクに使われます。
+
+:;{{T|See also|メインページ}}  →:{{See also|メインページ}}
+:;{{T|See also|メインページ|メインページ}}  →:{{See also|メインページ|メインページ}}
+
+:*<code>1</code>, <code>2</code>, <code>3</code>, ... – リンクさせたいページを指定します。
+:** 指定がない場合、テンプレートが置かれたページの ([[ヘルプ:名前空間|名前空間名を除いた]]) ページ名が指定されます。
+:** カテゴリページやファイルページを指定すると、[[Help:Colon trick|コロンの用法]]によりそれぞれのページにリンクされますが、冒頭のコロンは表示されません。
+:** 節 (セクション) へのリンクは、MediaWiki標準の ''ページ#節'' ではなく''ページ § 節'' に変換して表示されます。
+:*<code>l1</code>, <code>l2</code>, <code>l3</code>, ...  または <code>label 1</code>, <code>label 2</code>, <code>label 3</code>, ... – 各リンクのラベル ([[ヘルプ:パイプ付きリンク|パイプ付きリンク]]で指定する、表示テキスト部分にあたります) を任意で追加できます。
+:** この引数には、(大文字の 'L' ではなく) 小文字の 'l' を使うことにご注意ください。(例: <code>L1</code> <u>ではなく</u> <code>l1</code>)
+:* [[#Selfref|<code>selfref</code>]] – "yes"、"y"、"true" または "1" を指定すると、"selfref" というCSSクラスを追加します。[[wikipedia:ja:自己言及|自己言及]]であることを示す際に使われます。
+
+; Disambiguation ({{#invoke:i18n|getMsg|Module:Hatnote/i18n|disambiguation|uselang = {{CONTENTLANG}} }})
+曖昧さ回避の情報を載せる場合のうち、独立した曖昧さ回避ページまでは必要としないというときは、{{T|About}} や {{T|For}} といったテンプレートを使います。曖昧さ回避ページは、主に曖昧さ回避が必要な、平等な記事が4ページ以上ある場合や、分野名を付記した項目名の記事ページ (「項目名 (分野)」) に対して作られています。
+
+;{{T|About}}: 同じ名前、あるいは概念についての記事を読者が求めることがあると考えられる場合に使うテンプレートです。以下のようなフォーマットでご利用ください。
+
+:;{{T|About|Use1}} →:{{About|}}
+:;{{T|About|Use1|<nowiki/>|メインページ}} →:{{About|Use1||メインページ}}
+:;{{T|About|Use1|<nowiki/>|メインページ|及び|メインページ}} →:{{About|Use1||メインページ|及び|メインページ}}
+:;{{T|About|Use1|Use2|メインページ}} →:{{About|Use1|Use2|メインページ}}
+:;{{T|About|Use1|Use2|メインページ|及び|メインページ}} →:{{About|Use1|Use2|メインページ|及び|メインページ}}
+:;{{T|About|Use1|Use2|メインページ|その他の用法}} →:{{About|Use1|Use2|メインページ|その他の用法}}
+
+{{T|About}}テンプレートを節 (セクション) の最初で使う場合は、引数に <code>section=yes</code> を指定します。それによって、節用のメッセージが利用できます。
+:;{{T|About|Use1|<nowiki>section=yes</nowiki>}} →:{{About|Use1|section=yes}}
+:;{{T|About|Use1|<nowiki/>|メインページ|<nowiki>section=yes</nowiki>}} →:{{About|Use1||メインページ|section=yes}}
+:;{{T|About|Use1|Use2|メインページ|<nowiki>section=yes</nowiki>}} →:{{About|Use1|Use2|メインページ|section=yes}}
+:;{{T|About|Use1|Use2|メインページ|及び|メインページ|<nowiki>section=yes</nowiki>}} →:{{About|Use1|Use2|メインページ|及び|メインページ|section=yes}}
+:;{{T|About|Use1|Use2|メインページ| その他の用法|<nowiki>section=yes</nowiki>}} →:{{About|Use1|Use2|メインページ|その他の用法|section=yes}}
+
+:* これらのハットノートテンプレートは、以下のテンプレートメッセージでは不十分な場合のみ使うよう心がけてください。
+:* このテンプレートも[[#Selfref|<var>selfref</var>]]引数が使えます。
+
+;{{T|For}}: 4ページまでの関連ページや、曖昧さ回避ページへのリンクに使用します。0〜5の引数を指定できます。
+
+:; このテンプレートを、引数を指定せず「Foo」というページで使った場合、以下のようになります…
+::{{for|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|other-uses|uselang = {{CONTENTLANG}} }}|Foo ({{#invoke:i18n|getMsg|Module:Hatnote/i18n|disambiguation|uselang = {{CONTENTLANG}} }})|category=n}}
+
+:; 1つ目の引数を指定すると、ハットノートのメッセージ部分を変更できます。プレーンテキスト (文字のみ) で指定してください。
+:; 例えば、{{T|For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}}} は以下のようになります…
+::{{for|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|Foo ({{#invoke:i18n|getMsg|Module:Hatnote/i18n|disambiguation|uselang = {{CONTENTLANG}} }})|category=n}}
+:; 2つ目の引数を指定すると、リンク先を変更できます。
+:; 例えば、{{T|For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ}} は以下のようになります…
+::{{For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ|category=n}}
+:; 3〜5つ目の引数を指定すると、リンク先を3つまで追加できます。
+:*{{For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ|メインページ|category=n}}
+:*{{For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ|メインページ|メインページ|category=n}}
+:*{{For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ|メインページ|メインページ|メインページ|category=n}}
+:最後の例は、以下のコードを入力したものです。
+:; {{T|For|{{#invoke:i18n|getMsg|Module:Hatnote/i18n|similar-terms|uselang = {{CONTENTLANG}}}}|メインページ|メインページ|メインページ|メインページ}}.
+
+; <span id="Errors">エラー</span>
+[[#Hatnote|ハットノートのテキスト]]が指定されていない場合、以下のようにエラーメッセージが表示されます。
+* {{hatnote|category=no}}
+
+エラーメッセージが表示される場合、以下の4つの原因が考えられます。
+# 引数が指定されていない場合。(テンプレートのコードが <code><nowiki>{{hatnote}}</nowiki></code> 。) <code><nowiki>{{hatnote|</nowiki>''テキスト''<nowiki>}}</nowiki></code> のように修正してください。
+# 一部の引数のみ指定され、ハットノートのテキストは指定されていない場合。例えば、テンプレートのコードが <code><nowiki>{{hatnote|extraclasses=seealso}}</nowiki></code> でもこのエラーになります。この例の場合、<code><nowiki>{{hatnote|</nowiki>''テキスト''<nowiki>|extraclasses=seealso}}</nowiki></code> のように修正してください。
+# ハットノートテキストに半角等号記号 ("=") が含まれている場合。テンプレートコード上では、半角等号は特別な役割をもっているため、[[ヘルプ:テンプレートパラメータ|名前付きの引数 (パラメータ)]] 以外でテキストとして使うことはできません。例えば、<code><nowiki>{{hatnote|2+2=4}}</nowiki></code> というテンプレートコードは、エラーを起こしてしまいます。正しく表示させるためには、ハットノートのテキストの前で引数名として (1つ目の引数であることを 表す) <code>1=</code> を指定してください。先ほどの例では、次のようになります。<code><nowiki>{{hatnote|1=2+2=4}}</nowiki></code>
+# <code><nowiki>{{#invoke:hatnote|hatnote|</nowiki>''テキスト''<nowiki>}}</nowiki></code>のコードを用いて、[[Module:Hatnote]]を直接呼び出そうとした場合。このように <code><nowiki>{{#invoke:}}</nowiki></code>ステートメントを使った方法は、性能的な理由のため使用できません。<code><nowiki>{{hatnote|</nowiki>''テキスト''<nowiki>}}</nowiki></code> を利用してください。
+
+このエラーのあるページには、自動的に[[:Category:{{#invoke:i18n|getMsg|Module:Hatnote/i18n|cat-errors|uselang = {{CONTENTLANG}} }}]]というカテゴリが追加されます。
+
+
+; 技術的な情報
+: このテンプレートは[[Help:Lua|Lua言語]]でプログラムされています。詳細は[[w:c:dev:Global_Lua_Modules/Hatnote|グローバルLuaモジュールのページ (英語)]]からご覧いただけます。
+
+このテンプレートを使った場合のHTMLコードは、次のようになります…
+
+* <code><nowiki><div role="note" class="hatnote"></nowiki>''ハットノートのテキスト''<nowiki></div></nowiki></code>
+
+; 関連項目
+* [[Template:Hatnote]]
+* [[Template:Main]]
+* [[Template:Further]]
+* [[Template:See also]]
+* [[Template:About]]
+* [[Template:For]]
+* [[Template:Details]]
+* [[Template:Format link]]
+
+* [[w:c:ja.templates:Template:Hatnote/wikitext]] - ウィキテキストによるハットノートテンプレート
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/関連リンク]]</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]</noinclude>

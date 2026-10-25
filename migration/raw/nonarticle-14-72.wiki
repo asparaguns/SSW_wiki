@@ -1,0 +1,7 @@
+{{SITENAME}} にある'''画像'''。
+
+{{DEFAULTSORT:かそう}}
+[[カテゴリ:メディア]]
+<!-- 
+[[en:Category:Images]]
+-->

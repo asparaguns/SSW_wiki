@@ -1,0 +1,8 @@
+{{- $file := .Get "file" -}}
+{{- $alt := .Get "alt" | default $file -}}
+{{- $src := printf "images/%s" $file -}}
+{{- if fileExists (printf "static/%s" $src) -}}
+<span class="wiki-media{{ if eq (printf "%v" (.Get "inline")) "true" }} is-inline{{ end }}"><img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy"></span>
+{{- else -}}
+<span class="wiki-media-missing{{ if eq (printf "%v" (.Get "inline")) "true" }} is-inline{{ end }}"><a href="https://ssw-mod.fandom.com/ja/wiki/ファイル:{{ $file }}" title="Fandom版で画像を確認">画像未移行: {{ $file }}</a></span>
+{{- end -}}

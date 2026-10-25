@@ -1,0 +1,9 @@
+[[wikipedia:ja:Help:テンプレートの制限#高負荷構文解析関数使用回数|負荷の高い関数の使用回数は制限されています]]。制限回数を超えているページはこのカテゴリに自動的に入ります。
+
+__HIDDENCAT__
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:こうふかなこうふんかいせきかんすうのよひたしかおおすきるへえし}}
+[[カテゴリ:メンテナンス]]
+<!-- 
+[[en:Category:Pages with too many expensive parser function calls]]
+-->

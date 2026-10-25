@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルは[[Wikipedia:ja:パブリックドメイン|パブリックドメイン]]に属しています。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:パブリックドメインファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,30 @@
+{{国家
+|国旗=FLAG_NZL_GBRandIREbyENG.svg
+|国章=EMBLEM_NZL.svg
+|正式名称=Realm of New Zealand<br>(ニュージーランド王国)
+|略称=ニュージーランド
+|タグ=NZL
+|国の標語=Ex unitate vires<br>(団結から、強さ)
+|国歌=God Defend New Zealand<br>(神よニュージーランドを守り給え)
+|公用語=英語
+|首都=ウェリントン
+|国家元首='''君主''': [[ジョージ6世]]<br>'''総督''': バーナード・フレイバーグ
+|政府首班=[[シドニー・ホランド]]
+|政府思想=[[保守民主主義]]
+|通貨=ニュージーランド・ポンド
+|成立=1907/09/26
+|工業力=5
+|人口=1.58M
+|地位=主権国家
+|陣営=[[イギリス連邦]]
+|経済圏=[[イギリス連邦特恵関税ブロック]]
+|同盟国='''同君連合'''<br>[[ファイル:FLAG_GBRandIREbyENG.svg|20px|link=グレートブリテン及び北アイルランド連合王国]] [[グレートブリテン及び北アイルランド連合王国|連合王国]]<br>[[ファイル:FLAG_CAN_GBRandIREbyENG.svg|20px|link=カナダ自治領]] [[カナダ自治領]]<br>[[ファイル:FLAG_AST_GBRandIREbyENG.svg|20px|link=オーストラリア連邦]] [[オーストラリア連邦]]<br>[[ファイル:FLAG_SAF.svg|20px|link=南アフリカ連邦]] [[南アフリカ連邦]]<br>[[ファイル:FLAG_CEYLON.svg|20px|link=セイロン]] [[セイロン]]
+|属領='''属領'''<br>[[ファイル:FLAG_NZL_GBRandIREbyENG.svg|20px]] クック諸島<br>[[ファイル:FLAG_NZL_GBRandIREbyENG.svg|20px]] ニウエ島<br>[[ファイル:FLAG_NZL_GBRandIREbyENG.svg|20px]] トケラウ諸島<br>[[ファイル:FLAG_NZL_GBRandIREbyENG.svg|20px]] ロス海属領<br>'''C式委任統治領'''<br>[[ファイル:FLAG_SAM_GBRandIREbyENG.svg|20px]] 西サモア地域
+}}
+
+
+=='''歴史'''==
+=='''政治'''==
+=='''産業'''==
+=='''軍事'''==
+[[カテゴリ:国家]]

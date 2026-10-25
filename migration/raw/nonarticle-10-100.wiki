@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルには著作権があります。このファイルの著作権保持者はその使用を許可しています。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:著作者が使用を認めているファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

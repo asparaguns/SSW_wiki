@@ -1,0 +1,28 @@
+{{国家
+|国旗=FLAG_SWI.svg
+|国章=EMBLEM_SWI.svg
+|正式名称=Schweizerische Eidgenossenschaft<br>Confédération Suisse<br>Confederazione Svizzera<br>Confederaziun Svizra<br>Confoederatio Helvetica<br>(スイス連邦)
+|略称=スイス
+|タグ=SWI
+|国の標語=Unus pro omnibus, omnes pro uno<br>(一人は皆のために、皆は一人のために)
+|国歌=Schweizerpsalm<br>Cantique Suisse<br>Salmo Svizzero<br>Psalm Svizzer<br>(スイス賛歌)
+|公用語=ドイツ語<br>フランス語<br>イタリア語<br>ロマンシュ語<br>ラテン語
+|首都=ベルン
+|国家元首=[[連邦参事会]]
+|政府首班=[[オスカー・ライムグルーバー]]
+|政府思想=[[保守民主主義]]
+|通貨=スイス・フラン
+|成立=1291/08/01
+|工業力=15
+|人口=5.45M
+|地位=主権国家
+|陣営=未加盟
+|経済圏=未加盟
+}}
+
+
+=='''歴史'''==
+=='''政治'''==
+=='''産業'''==
+=='''軍事'''==
+[[カテゴリ:国家]]

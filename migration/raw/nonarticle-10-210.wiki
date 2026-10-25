@@ -1,0 +1,19 @@
+;解説
+:このテンプレートは、ビュレット（箇条書きの頭に付ける黒丸）の生成に使用します。
+:<code><nowiki>&amp;nbsp;&amp;bull;&amp;nbsp;</nowiki></code> （半角スペース、ビュレット、半角スペース）というHTMLマークアップを挿入しています。
+:ビュレットの見た目は、半角中黒 ( '''&middot;''' , <code><nowiki>&amp;middot;</nowiki></code>) よりは大きい点ですが、n幅ダッシュ ( '''&ndash;''' , <code><nowiki>&amp;ndash;</nowiki></code>) よりは短いものです。
+
+;構文
+:<code>{{t|*}}</code>を使用してこのテンプレートを挿入してください。
+: '''出力結果''': <code>{{*}}</code>
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>
+[[カテゴリ:テンプレート/データ]]
+<!--
+[[en:Template:*]]
+-->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]
+</noinclude>

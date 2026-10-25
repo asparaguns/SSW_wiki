@@ -1,0 +1,5 @@
+{{ define "main" }}
+<article class="wiki-article"><h1 class="page-title">{{ .Title }}</h1>
+<ul class="page-list">{{ range .Data.Terms.Alphabetical }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>（{{ .Count }}）</li>{{ end }}</ul>
+</article>
+{{ end }}

@@ -1,0 +1,25 @@
+このカテゴリのサブカテゴリに属するページは、以下のいずれか、または複数の理由により修正が必要な場合があります。
+* コミュニティで議論した上での編集が求められている。
+* 編集したユーザーによって、情報の加除修正や技術的な問題の修正が求められている。
+* 特別なユーザー権限が必要な編集が求められている。
+
+''以下のページも併せてご確認ください。''
+{{cols|2|
+* [[Special:BrokenRedirects|{{int:brokenredirects}}]]
+* [[Special:DoubleRedirects|{{int:doubleredirects}}]]
+* [[Special:UncategorizedCategories|{{int:uncategorizedcategories}}]]
+* [[Special:UncategorizedFiles|{{int:uncategorizedimages}}]]
+* [[Special:UncategorizedPages|{{int:uncategorizedpages}}]]
+* [[Special:UncategorizedTemplates|{{int:uncategorizedtemplates}}]]
+* [[Special:WantedCategories|{{int:wantedcategories}}]]
+* [[Special:WantedFiles|{{int:wantedfiles}}]]
+* [[Special:WantedPages|{{int:wantedpages}}]]
+* [[Special:WantedTemplates|{{int:wantedtemplates}}]]
+}}
+
+__HIDDENCAT__
+{{DEFAULTSORT:めんてなんす}}
+[[Category:{{SITENAME}}]]
+<!-- 
+[[en:Category:Maintenance]]
+-->

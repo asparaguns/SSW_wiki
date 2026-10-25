@@ -1,0 +1,2428 @@
+{
+  "source": "https://ssw-mod.fandom.com/ja/wiki/",
+  "xml_page_count": 736,
+  "namespace_counts": {
+    "0": 194,
+    "14": 49,
+    "10": 127,
+    "828": 10,
+    "6": 317,
+    "2": 16,
+    "4": 18,
+    "8": 3,
+    "502": 2
+  },
+  "content_pages_in_namespace_0": 174,
+  "articles_written": 174,
+  "redirects": {
+    "ユーザー:Wikia Video Library": "ユーザー:Wikia Video Library",
+    "ユーザー:Wildtech": "ユーザー:Wildtech",
+    "ユーザー:VSTF Bot": "ユーザー:VSTF Bot",
+    "ユーザー:MediaWiki default": "ユーザー:MediaWiki default",
+    "ユーザー:Maintenance script": "ユーザー:Maintenance script",
+    "ユーザー:FandomBot": "ユーザー:FandomBot",
+    "ユーザー:FANDOMbot": "ユーザー:FANDOMbot",
+    "ユーザー:Fandom": "ユーザー:Fandom",
+    "ユーザー:Wikia": "ユーザー:Wikia",
+    "ユーザー:FANDOM": "ユーザー:FANDOM",
+    "ユーザー:Default": "ユーザー:Default",
+    "ユーザー:Edit page script": "ユーザー:Edit page script",
+    "ユーザー:CreateWiki script": "ユーザー:CreateWiki script",
+    "Main Page": "メインページ",
+    "メインページ": "The Sun Shining on the World Wiki",
+    "日本領北極地域": "勘察加占領軍地域",
+    "極東共和国": "極東国",
+    "ニューイングランド王国": "ニューイングランド",
+    "アメリカ連邦": "アメリカ共和国",
+    "セルビア＝モンテネグロ王国": "セルビア国民国"
+  },
+  "redirects_unresolved": [
+    {
+      "alias": "ユーザー:Wikia Video Library",
+      "target": "ユーザー:Wikia Video Library"
+    },
+    {
+      "alias": "ユーザー:Wildtech",
+      "target": "ユーザー:Wildtech"
+    },
+    {
+      "alias": "ユーザー:VSTF Bot",
+      "target": "ユーザー:VSTF Bot"
+    },
+    {
+      "alias": "ユーザー:MediaWiki default",
+      "target": "ユーザー:MediaWiki default"
+    },
+    {
+      "alias": "ユーザー:Maintenance script",
+      "target": "ユーザー:Maintenance script"
+    },
+    {
+      "alias": "ユーザー:FandomBot",
+      "target": "ユーザー:FandomBot"
+    },
+    {
+      "alias": "ユーザー:FANDOMbot",
+      "target": "ユーザー:FANDOMbot"
+    },
+    {
+      "alias": "ユーザー:Fandom",
+      "target": "ユーザー:Fandom"
+    },
+    {
+      "alias": "ユーザー:Wikia",
+      "target": "ユーザー:Wikia"
+    },
+    {
+      "alias": "ユーザー:FANDOM",
+      "target": "ユーザー:FANDOM"
+    },
+    {
+      "alias": "ユーザー:Default",
+      "target": "ユーザー:Default"
+    },
+    {
+      "alias": "ユーザー:Edit page script",
+      "target": "ユーザー:Edit page script"
+    },
+    {
+      "alias": "ユーザー:CreateWiki script",
+      "target": "ユーザー:CreateWiki script"
+    },
+    {
+      "alias": "ニューイングランド王国",
+      "target": "ニューイングランド"
+    }
+  ],
+  "infobox_counts": {
+    "国家": 133,
+    "人物": 4,
+    "戦闘": 1,
+    "艦艇": 9,
+    "Infobox": 1,
+    "陣営": 1
+  },
+  "template_usage": [
+    [
+      "国家",
+      133
+    ],
+    [
+      "艦艇",
+      9
+    ],
+    [
+      "人物",
+      4
+    ],
+    [
+      "#tag:gallery",
+      1
+    ],
+    [
+      "戦闘",
+      1
+    ],
+    [
+      "Infobox",
+      1
+    ],
+    [
+      "陣営",
+      1
+    ]
+  ],
+  "unconverted_templates": {
+    "メインページ/テーマ": [
+      "#tag:gallery"
+    ]
+  },
+  "uncategorized_articles": [
+    "The Sun Shining on the World Wiki",
+    "アメリカ軍",
+    "アルバニアの共産主義",
+    "カール・ムント",
+    "キューバ海軍艦艇一覧",
+    "ジョージ・リンカーンロックウェル",
+    "セルビア海軍艦艇一覧",
+    "ドワイト・D・アイゼンハワー（Dwight David Eisenhower）",
+    "フランシス・パーカー・ヨッキー（Francis Parker Yockey）",
+    "リンドン・ジョンソン（Lyndon Baines Johnson）",
+    "北アフリカ戦線",
+    "国家結束主義",
+    "戦後のアメリカ（１９４４‐１９５０）",
+    "満州国海軍艦艇一覧",
+    "開発情報",
+    "開発状況"
+  ],
+  "inferred_categories": {
+    "国家": 2,
+    "戦闘": 1,
+    "艦艇": 9,
+    "陣営": 1
+  },
+  "missing_internal_link_targets": [
+    "Special:UnusedImages",
+    "アナンディーン・アマル",
+    "アメリカ合衆国連邦臨時政府",
+    "イギリス",
+    "イタリア王国",
+    "イタリア領リビア植民地",
+    "カフカス国家弁務官区",
+    "ゲレグドルジーン・デミド",
+    "スカルノ",
+    "ダライ・ラマ14世",
+    "ダンスランビレギーン・ドグソム",
+    "ツェワン・リグジン",
+    "ディンジャ",
+    "ドイツ国",
+    "ドイツ領北フランス占領地域",
+    "ドン・ヴォルガ国家弁務官区",
+    "ネーデルラント王国亡命政府",
+    "パキスタン・イスラム共和国",
+    "ブルガリア",
+    "ヘルプ:テーマデザイナー",
+    "ペルジディーン・ゲンデン",
+    "ホルローギーン・チョイバルサン",
+    "ポーランド総督府領",
+    "マルクス＝レーニン主義",
+    "モスコヴィーン国家弁務官区",
+    "ユトク・タシ・ドンドゥプ",
+    "ヨシフ・スターリン",
+    "ヨルダン・ハシミテ王国",
+    "保守民主主義",
+    "国家社会主義",
+    "大東亜共栄圏",
+    "権威専制主義",
+    "権威的民主主義",
+    "無政府主義",
+    "社会民主主義",
+    "自由フランス",
+    "自由主義",
+    "超国家主義",
+    "革新的共産主義"
+  ],
+  "images_referenced_in_articles": 311,
+  "images_missing_from_static_images": [
+    "1900_Election.png",
+    "1927_Election.png",
+    "1936_Election.jpg",
+    "1941_Election.jpg",
+    "1944_Election.png",
+    "1946_Election.png",
+    "1946　憲法_Election.jpg",
+    "1948_Election.png",
+    "1948年大統領選挙の開票結果.png",
+    "BB63.jpg",
+    "Bundesarchiv_Bild_183-H26258,_Panzer_V_Panther_.jpg",
+    "Cub_of11.gif",
+    "Cub_of2.jpg",
+    "Cub_of3.jpg",
+    "Cub_of6.gif",
+    "Cuban_gunboat_Cuba_in_the_1940s.jpg",
+    "EMBLEM_ADN.svg",
+    "EMBLEM_ADR.svg",
+    "EMBLEM_AFG.svg",
+    "EMBLEM_ALB_ITA.svg",
+    "EMBLEM_ALS.svg",
+    "EMBLEM_AMERICA_commonwealth.svg",
+    "EMBLEM_AST.svg",
+    "EMBLEM_BHU.svg",
+    "EMBLEM_BRM.svg",
+    "EMBLEM_BUL.svg",
+    "EMBLEM_CAM.svg",
+    "EMBLEM_CAN.svg",
+    "EMBLEM_CEYLON.svg",
+    "EMBLEM_CHI.svg",
+    "EMBLEM_CRO.svg",
+    "EMBLEM_CZE.svg",
+    "EMBLEM_DEN.svg",
+    "EMBLEM_EAF_ITA.svg",
+    "EMBLEM_EGY.svg",
+    "EMBLEM_FAE.svg",
+    "EMBLEM_FIN.svg",
+    "EMBLEM_FRA.svg",
+    "EMBLEM_GAM.svg",
+    "EMBLEM_GBRandIREbyENG.svg",
+    "EMBLEM_GER_national_socialism.svg",
+    "EMBLEM_GHA.svg",
+    "EMBLEM_GRE.svg",
+    "EMBLEM_HUN.svg",
+    "EMBLEM_HYD.svg",
+    "EMBLEM_ICE.svg",
+    "EMBLEM_IND.svg",
+    "EMBLEM_INS.svg",
+    "EMBLEM_IRE.svg",
+    "EMBLEM_IRN.svg",
+    "EMBLEM_IRQ.svg",
+    "EMBLEM_ITAbySRD.svg",
+    "EMBLEM_JAP.svg",
+    "EMBLEM_JOR.svg",
+    "EMBLEM_JRS_ITA.svg",
+    "EMBLEM_KALAT_khanate.svg",
+    "EMBLEM_KAS.svg",
+    "EMBLEM_KUW.svg",
+    "EMBLEM_LAO.svg",
+    "EMBLEM_LEB.svg",
+    "EMBLEM_LIB.svg",
+    "EMBLEM_LIE.svg",
+    "EMBLEM_LSO.svg",
+    "EMBLEM_MAL.svg",
+    "EMBLEM_MAN.svg",
+    "EMBLEM_MCO.svg",
+    "EMBLEM_MEN_military_government.svg",
+    "EMBLEM_MON_peoples_republic.svg",
+    "EMBLEM_MYS.svg",
+    "EMBLEM_NAF_ITA.svg",
+    "EMBLEM_NEL.svg",
+    "EMBLEM_NEP.svg",
+    "EMBLEM_NGA.svg",
+    "EMBLEM_NZL.svg",
+    "EMBLEM_OMA.svg",
+    "EMBLEM_PAK.svg",
+    "EMBLEM_PHI.svg",
+    "EMBLEM_PNG.svg",
+    "EMBLEM_POR.svg",
+    "EMBLEM_PUE.svg",
+    "EMBLEM_RHO.svg",
+    "EMBLEM_ROM.svg",
+    "EMBLEM_SAF.svg",
+    "EMBLEM_SAU.svg",
+    "EMBLEM_SCZ_ITA.svg",
+    "EMBLEM_SER.svg",
+    "EMBLEM_SIA.svg",
+    "EMBLEM_SIE.svg",
+    "EMBLEM_SKM.svg",
+    "EMBLEM_SLO.svg",
+    "EMBLEM_SMR.svg",
+    "EMBLEM_SOV.svg",
+    "EMBLEM_SPA.svg",
+    "EMBLEM_SWE.svg",
+    "EMBLEM_SWI.svg",
+    "EMBLEM_SYR.svg",
+    "EMBLEM_TER.svg",
+    "EMBLEM_TIB.svg",
+    "EMBLEM_TRC.svg",
+    "EMBLEM_TRK.svg",
+    "EMBLEM_TRV.svg",
+    "EMBLEM_USA.svg",
+    "EMBLEM_VAT.svg",
+    "EMBLEM_VIN.svg",
+    "EMBLEM_WESTIRIANJAYA_INS.svg",
+    "EMBLEM_WIN.svg",
+    "EMBLEM_YEM.svg",
+    "EMBLEM_YUENAN_peopledom.svg",
+    "Erwin-Rommel-defenses-German-1944.jpg",
+    "F.jpg",
+    "FLAG_ADN_GBRandIREbyENG.svg",
+    "FLAG_ADR.svg",
+    "FLAG_AFG.svg",
+    "FLAG_ALB_ITA.svg",
+    "FLAG_ALS.svg",
+    "FLAG_AMERICA_commonwealth.svg",
+    "FLAG_ARG.svg",
+    "FLAG_AST_GBRandIREbyENG.svg",
+    "FLAG_BELandNORTHFRANCE_GER.svg",
+    "FLAG_BHU.svg",
+    "FLAG_BLS.svg",
+    "FLAG_BOHandMRV.svg",
+    "FLAG_BOL.svg",
+    "FLAG_BOT_GBRandIREbyENG.svg",
+    "FLAG_BRA.svg",
+    "FLAG_BRM.svg",
+    "FLAG_BUL.svg",
+    "FLAG_CAM.svg",
+    "FLAG_CAN_GBRandIREbyENG.svg",
+    "FLAG_CCS_GER.svg",
+    "FLAG_CEYLON.svg",
+    "FLAG_CHI_federal_republic.svg",
+    "FLAG_CHL.svg",
+    "FLAG_COL.svg",
+    "FLAG_COS.svg",
+    "FLAG_CRO.svg",
+    "FLAG_CUB.svg",
+    "FLAG_DEN.svg",
+    "FLAG_DOM.svg",
+    "FLAG_DON_GER.svg",
+    "FLAG_EAF_ITA.svg",
+    "FLAG_EASTLAND_GER.svg",
+    "FLAG_ECU.svg",
+    "FLAG_EGY.svg",
+    "FLAG_ELS.svg",
+    "FLAG_FAE.svg",
+    "FLAG_FIN.svg",
+    "FLAG_FKL_GBRandIREbyENG.svg",
+    "FLAG_FRA.svg",
+    "FLAG_FRA_GER.svg",
+    "FLAG_FREEFRANCE.svg",
+    "FLAG_FSA.svg",
+    "FLAG_GAM_GBRandIREbyENG.svg",
+    "FLAG_GBRandIREbyENG.svg",
+    "FLAG_GER_national_socialism.svg",
+    "FLAG_GHA_GBRandIREbyENG.svg",
+    "FLAG_GRE.svg",
+    "FLAG_GUA.svg",
+    "FLAG_HAI.svg",
+    "FLAG_HKG_GBRandIREbyENG.svg",
+    "FLAG_HON.svg",
+    "FLAG_HUN.svg",
+    "FLAG_HYD.svg",
+    "FLAG_ICE.svg",
+    "FLAG_IND.svg",
+    "FLAG_INS.svg",
+    "FLAG_IRE.svg",
+    "FLAG_IRN.svg",
+    "FLAG_IRQ.svg",
+    "FLAG_ITAbySRD.svg",
+    "FLAG_JAP.svg",
+    "FLAG_JOR.svg",
+    "FLAG_JRS_ITA.svg",
+    "FLAG_KALAT_khanate.svg",
+    "FLAG_KAM_JAP.svg",
+    "FLAG_KAS.svg",
+    "FLAG_KUW.svg",
+    "FLAG_LAO.svg",
+    "FLAG_LEB.svg",
+    "FLAG_LFF.svg",
+    "FLAG_LIB.svg",
+    "FLAG_LIE.svg",
+    "FLAG_LSO_GBRandIREbyENG.svg",
+    "FLAG_MAF_GER.svg",
+    "FLAG_MAL.svg",
+    "FLAG_MAN.svg",
+    "FLAG_MCO.svg",
+    "FLAG_MEN_military_government.svg",
+    "FLAG_MEX.svg",
+    "FLAG_MLD.svg",
+    "FLAG_MON_peoples_republic.svg",
+    "FLAG_MOS_GER.svg",
+    "FLAG_MSCandOMA.svg",
+    "FLAG_MUSCATandOMAN_sultanate.svg",
+    "FLAG_MYS.svg",
+    "FLAG_NAF_ITA.svg",
+    "FLAG_NEL.svg",
+    "FLAG_NEP.svg",
+    "FLAG_NFL_GBRandIREbyENG.svg",
+    "FLAG_NGA_GBRandIREbyENG.svg",
+    "FLAG_NGU_JAPandINS.svg",
+    "FLAG_NIC.svg",
+    "FLAG_NOR_GER.svg",
+    "FLAG_NTL.svg",
+    "FLAG_NTL_GER.svg",
+    "FLAG_NZL_GBRandIREbyENG.svg",
+    "FLAG_PAK.svg",
+    "FLAG_PAN.svg",
+    "FLAG_PAR.svg",
+    "FLAG_PHI.svg",
+    "FLAG_PNG_GBRandIREbyENG.svg",
+    "FLAG_POL_GER.svg",
+    "FLAG_POR.svg",
+    "FLAG_PRU.svg",
+    "FLAG_PUE.svg",
+    "FLAG_ROM.svg",
+    "FLAG_SAF.svg",
+    "FLAG_SAU.svg",
+    "FLAG_SCZ_ITA.svg",
+    "FLAG_SER.svg",
+    "FLAG_SIA.svg",
+    "FLAG_SIE_GBRandIREbyENG.svg",
+    "FLAG_SKM.svg",
+    "FLAG_SLO.svg",
+    "FLAG_SMR.svg",
+    "FLAG_SOV.svg",
+    "FLAG_SPA.svg",
+    "FLAG_SWE.svg",
+    "FLAG_SWI.svg",
+    "FLAG_SWL_GBRandIREbyENG.svg",
+    "FLAG_SYR.svg",
+    "FLAG_TER.svg",
+    "FLAG_TIB.svg",
+    "FLAG_TRC.svg",
+    "FLAG_TRK.svg",
+    "FLAG_TRV.svg",
+    "FLAG_TUR.svg",
+    "FLAG_UAE.svg",
+    "FLAG_UKR_GER.svg",
+    "FLAG_URG.svg",
+    "FLAG_USA_49.svg",
+    "FLAG_UTC.svg",
+    "FLAG_VAT.svg",
+    "FLAG_VEN.svg",
+    "FLAG_VIN.svg",
+    "FLAG_WESTIRIANJAYA_INS.svg",
+    "FLAG_WIN.svg",
+    "FLAG_YEM.svg",
+    "FLAG_YUENAN_peopledom.svg",
+    "FLAG_ZIM_GBRandIREbyENG.svg",
+    "Great_albania.png",
+    "Hoxha_at_Odrican_1944.jpg",
+    "Impetuoso.jpg",
+    "KAMINOHI.jpg",
+    "Peze-Conference-Room.png",
+    "Portrait_ALF_Thomas_Edmund_Dewey.png",
+    "Portrait_Adolf_Hitler.png",
+    "Portrait_FSA_Francis_Parker_Yockey.png",
+    "Portrait_FSA_George_Rockwell.png",
+    "Portrait_Italy_Benito_Mussolini.png",
+    "Portrait_New_England_Dwight_Eisenhower.png",
+    "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.png",
+    "Portrait_Tsarong_Dzasa.png",
+    "Portrait_Tsarong_Dzasa_Military.png",
+    "RambI.jpg",
+    "Riga.jpg",
+    "SSW_Logo_3.png",
+    "Shefqet_Vërlaci_(portret).jpg",
+    "Ssw_Portrait_Gu_Zhutong.png",
+    "The_British_Army_in_North_Africa_1942_E14948.3.jpg",
+    "U.A.I.A.の国章.png",
+    "WesternDesertBattle_Area1941_en.svg.png",
+    "なし.svg",
+    "アップデート情報.png",
+    "アルゼンチンの国章.png",
+    "イデオロギー.png",
+    "イリアンジャヤ.jpg",
+    "ウルグアイの国章.png",
+    "エクアドルの国章.png",
+    "エルサルバドルの国章.png",
+    "オストランドの弁務官.jpg",
+    "キューバの国章.png",
+    "グアテマラの国章.png",
+    "コスタリカの国章.png",
+    "コロンビアの国章.png",
+    "ゴビ作戦前の内蒙軍.jpg",
+    "チリの国章.png",
+    "ドミニカの国章.png",
+    "ニカラグアの国章.png",
+    "ハイチの国章.png",
+    "ハリー・ベネット(Harry_Bennett)顔写真2.jpg",
+    "パナマの国章.png",
+    "パラグアイの国章.png",
+    "ブラジルの国章.png",
+    "ブラックステートの国章.png",
+    "ベネズエラの国章.png",
+    "ホンジュラスの国章.png",
+    "メキシコの国章.png",
+    "モルディブの国章.png",
+    "企業支配主義ロゴ.png",
+    "国家一覧.png",
+    "天下泰平.jpg",
+    "左翼戦線の国章.png",
+    "建国記念ポスター.jpg",
+    "当時の蒙彊.jpg",
+    "戦後新たに建造された大型空母.jpg",
+    "日本の投資の下行われた鉄道旅行.jpg",
+    "最大版図の蒙彊.gif",
+    "満州建国ポスター.jpg",
+    "通史.png",
+    "開発状況.png"
+  ],
+  "images_present_locally": [],
+  "raw_files_by_namespace_preserved": {
+    "14": 49,
+    "10": 127,
+    "6": 317
+  },
+  "raw_user_and_system_pages_excluded": {
+    "828": 10,
+    "2": 16,
+    "4": 18,
+    "8": 3,
+    "502": 2
+  },
+  "articles": [
+    {
+      "title": "The Sun Shining on the World Wiki",
+      "file": "content/_index.md",
+      "url": "/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/The_Sun_Shining_on_the_World_Wiki",
+      "original_revisions": 31
+    },
+    {
+      "title": "メインページ/テーマ",
+      "file": "content/wiki/article-112.md",
+      "url": "/wiki/メインページ-テーマ/",
+      "categories": [
+        "The Sun Shining on the World Wiki"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8%2F%E3%83%86%E3%83%BC%E3%83%9E",
+      "original_revisions": 1
+    },
+    {
+      "title": "通史",
+      "file": "content/wiki/article-235.md",
+      "url": "/wiki/通史/",
+      "categories": [
+        "通史",
+        "一覧"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E9%80%9A%E5%8F%B2",
+      "original_revisions": 222
+    },
+    {
+      "title": "国家一覧",
+      "file": "content/wiki/article-236.md",
+      "url": "/wiki/国家一覧/",
+      "categories": [
+        "一覧",
+        "国家"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%9B%BD%E5%AE%B6%E4%B8%80%E8%A6%A7",
+      "original_revisions": 163
+    },
+    {
+      "title": "大日本帝国",
+      "file": "content/wiki/article-237.md",
+      "url": "/wiki/大日本帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%A4%A7%E6%97%A5%E6%9C%AC%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 135
+    },
+    {
+      "title": "満州帝国",
+      "file": "content/wiki/article-240.md",
+      "url": "/wiki/満州帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%BA%80%E5%B7%9E%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 51
+    },
+    {
+      "title": "グレートブリテン及び北アイルランド連合王国",
+      "file": "content/wiki/article-267.md",
+      "url": "/wiki/グレートブリテン及び北アイルランド連合王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%83%96%E3%83%AA%E3%83%86%E3%83%B3%E5%8F%8A%E3%81%B3%E5%8C%97%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89%E9%80%A3%E5%90%88%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 82
+    },
+    {
+      "title": "カナダ自治領",
+      "file": "content/wiki/article-268.md",
+      "url": "/wiki/カナダ自治領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%83%8A%E3%83%80%E8%87%AA%E6%B2%BB%E9%A0%98",
+      "original_revisions": 14
+    },
+    {
+      "title": "オーストラリア連邦",
+      "file": "content/wiki/article-270.md",
+      "url": "/wiki/オーストラリア連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2%E9%80%A3%E9%82%A6",
+      "original_revisions": 11
+    },
+    {
+      "title": "ニュージーランド王国",
+      "file": "content/wiki/article-271.md",
+      "url": "/wiki/ニュージーランド王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 9
+    },
+    {
+      "title": "北東部諸州",
+      "file": "content/wiki/article-272.md",
+      "url": "/wiki/北東部諸州/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%8C%97%E6%9D%B1%E9%83%A8%E8%AB%B8%E5%B7%9E",
+      "original_revisions": 15
+    },
+    {
+      "title": "イタリアのユーゴスラビア侵攻",
+      "file": "content/wiki/article-283.md",
+      "url": "/wiki/イタリアのユーゴスラビア侵攻/",
+      "categories": [
+        "通史"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E3%83%A6%E3%83%BC%E3%82%B4%E3%82%B9%E3%83%A9%E3%83%93%E3%82%A2%E4%BE%B5%E6%94%BB",
+      "original_revisions": 11
+    },
+    {
+      "title": "アメリカ共和国",
+      "file": "content/wiki/article-288.md",
+      "url": "/wiki/アメリカ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 52
+    },
+    {
+      "title": "イデオロギー一覧",
+      "file": "content/wiki/article-290.md",
+      "url": "/wiki/イデオロギー一覧/",
+      "categories": [
+        "一覧",
+        "イデオロギー"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%87%E3%82%AA%E3%83%AD%E3%82%AE%E3%83%BC%E4%B8%80%E8%A6%A7",
+      "original_revisions": 13
+    },
+    {
+      "title": "企業支配主義",
+      "file": "content/wiki/article-291.md",
+      "url": "/wiki/企業支配主義/",
+      "categories": [
+        "イデオロギー"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E4%BC%81%E6%A5%AD%E6%94%AF%E9%85%8D%E4%B8%BB%E7%BE%A9",
+      "original_revisions": 25
+    },
+    {
+      "title": "ハリー・ベネット",
+      "file": "content/wiki/article-293.md",
+      "url": "/wiki/ハリー・ベネット/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8F%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%99%E3%83%8D%E3%83%83%E3%83%88",
+      "original_revisions": 4
+    },
+    {
+      "title": "ユーゴスラビア王国の崩壊",
+      "file": "content/wiki/article-296.md",
+      "url": "/wiki/ユーゴスラビア王国の崩壊/",
+      "categories": [
+        "通史"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A6%E3%83%BC%E3%82%B4%E3%82%B9%E3%83%A9%E3%83%93%E3%82%A2%E7%8E%8B%E5%9B%BD%E3%81%AE%E5%B4%A9%E5%A3%8A",
+      "original_revisions": 4
+    },
+    {
+      "title": "アメリカ自動車産業連合",
+      "file": "content/wiki/article-297.md",
+      "url": "/wiki/アメリカ自動車産業連合/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E8%87%AA%E5%8B%95%E8%BB%8A%E7%94%A3%E6%A5%AD%E9%80%A3%E5%90%88",
+      "original_revisions": 18
+    },
+    {
+      "title": "ブラックステート",
+      "file": "content/wiki/article-300.md",
+      "url": "/wiki/ブラックステート/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88",
+      "original_revisions": 7
+    },
+    {
+      "title": "ウィリアム・ダドリー・ペリー",
+      "file": "content/wiki/article-302.md",
+      "url": "/wiki/ウィリアム・ダドリー・ペリー/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%80%E3%83%89%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%9A%E3%83%AA%E3%83%BC",
+      "original_revisions": 3
+    },
+    {
+      "title": "アメリカ合衆国",
+      "file": "content/wiki/article-303.md",
+      "url": "/wiki/アメリカ合衆国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD",
+      "original_revisions": 29
+    },
+    {
+      "title": "チベット王国",
+      "file": "content/wiki/article-308.md",
+      "url": "/wiki/チベット王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%81%E3%83%99%E3%83%83%E3%83%88%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 23
+    },
+    {
+      "title": "アドルフ・ヒトラー",
+      "file": "content/wiki/article-320.md",
+      "url": "/wiki/アドルフ・ヒトラー/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": "人物",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%83%92%E3%83%88%E3%83%A9%E3%83%BC",
+      "original_revisions": 8
+    },
+    {
+      "title": "ツァロン・ツァサ",
+      "file": "content/wiki/article-327.md",
+      "url": "/wiki/ツァロン・ツァサ/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": "人物",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%84%E3%82%A1%E3%83%AD%E3%83%B3%E3%83%BB%E3%83%84%E3%82%A1%E3%82%B5",
+      "original_revisions": 7
+    },
+    {
+      "title": "ジャンペル・イェーシェーギャルツェン",
+      "file": "content/wiki/article-330.md",
+      "url": "/wiki/ジャンペル・イェーシェーギャルツェン/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": "人物",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%A7%E3%83%BC%E3%82%B7%E3%82%A7%E3%83%BC%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%84%E3%82%A7%E3%83%B3",
+      "original_revisions": 3
+    },
+    {
+      "title": "顧祝同",
+      "file": "content/wiki/article-332.md",
+      "url": "/wiki/顧祝同/",
+      "categories": [
+        "人物"
+      ],
+      "infobox": "人物",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E9%A1%A7%E7%A5%9D%E5%90%8C",
+      "original_revisions": 3
+    },
+    {
+      "title": "ブータン王国",
+      "file": "content/wiki/article-335.md",
+      "url": "/wiki/ブータン王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%96%E3%83%BC%E3%82%BF%E3%83%B3%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 11
+    },
+    {
+      "title": "タイ王国",
+      "file": "content/wiki/article-347.md",
+      "url": "/wiki/タイ王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%BF%E3%82%A4%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 9
+    },
+    {
+      "title": "蒙疆軍政府",
+      "file": "content/wiki/article-348.md",
+      "url": "/wiki/蒙疆軍政府/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E8%92%99%E7%96%86%E8%BB%8D%E6%94%BF%E5%BA%9C",
+      "original_revisions": 54
+    },
+    {
+      "title": "ビルマ国",
+      "file": "content/wiki/article-354.md",
+      "url": "/wiki/ビルマ国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%93%E3%83%AB%E3%83%9E%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "フィリピン共和国",
+      "file": "content/wiki/article-355.md",
+      "url": "/wiki/フィリピン共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 13
+    },
+    {
+      "title": "ベトナム帝国",
+      "file": "content/wiki/article-356.md",
+      "url": "/wiki/ベトナム帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "カンボジア王国",
+      "file": "content/wiki/article-357.md",
+      "url": "/wiki/カンボジア王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%83%B3%E3%83%9C%E3%82%B8%E3%82%A2%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "ラオス王国",
+      "file": "content/wiki/article-358.md",
+      "url": "/wiki/ラオス王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A9%E3%82%AA%E3%82%B9%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "マラヤ連合",
+      "file": "content/wiki/article-359.md",
+      "url": "/wiki/マラヤ連合/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9E%E3%83%A9%E3%83%A4%E9%80%A3%E5%90%88",
+      "original_revisions": 19
+    },
+    {
+      "title": "インドネシア連邦",
+      "file": "content/wiki/article-360.md",
+      "url": "/wiki/インドネシア連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E9%80%A3%E9%82%A6",
+      "original_revisions": 21
+    },
+    {
+      "title": "イタリア帝国",
+      "file": "content/wiki/article-380.md",
+      "url": "/wiki/イタリア帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 39
+    },
+    {
+      "title": "大ドイツ国",
+      "file": "content/wiki/article-382.md",
+      "url": "/wiki/大ドイツ国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%A4%A7%E3%83%89%E3%82%A4%E3%83%84%E5%9B%BD",
+      "original_revisions": 40
+    },
+    {
+      "title": "フランス国",
+      "file": "content/wiki/article-383.md",
+      "url": "/wiki/フランス国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E5%9B%BD",
+      "original_revisions": 20
+    },
+    {
+      "title": "セルビア国民国",
+      "file": "content/wiki/article-389.md",
+      "url": "/wiki/セルビア国民国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%BB%E3%83%AB%E3%83%93%E3%82%A2%E5%9B%BD%E6%B0%91%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "スロバキア共和国",
+      "file": "content/wiki/article-390.md",
+      "url": "/wiki/スロバキア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B9%E3%83%AD%E3%83%90%E3%82%AD%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 8
+    },
+    {
+      "title": "デンマーク王国",
+      "file": "content/wiki/article-392.md",
+      "url": "/wiki/デンマーク王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "クロアチア独立国",
+      "file": "content/wiki/article-395.md",
+      "url": "/wiki/クロアチア独立国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2%E7%8B%AC%E7%AB%8B%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "ブルガリア・ツァール国",
+      "file": "content/wiki/article-396.md",
+      "url": "/wiki/ブルガリア・ツァール国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%96%E3%83%AB%E3%82%AC%E3%83%AA%E3%82%A2%E3%83%BB%E3%83%84%E3%82%A1%E3%83%BC%E3%83%AB%E5%9B%BD",
+      "original_revisions": 11
+    },
+    {
+      "title": "エジプト王国",
+      "file": "content/wiki/article-397.md",
+      "url": "/wiki/エジプト王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 9
+    },
+    {
+      "title": "トランスヨルダン・ハシミテ王国",
+      "file": "content/wiki/article-399.md",
+      "url": "/wiki/トランスヨルダン・ハシミテ王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%83%A8%E3%83%AB%E3%83%80%E3%83%B3%E3%83%BB%E3%83%8F%E3%82%B7%E3%83%9F%E3%83%86%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "南アフリカ連邦",
+      "file": "content/wiki/article-400.md",
+      "url": "/wiki/南アフリカ連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%8D%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E9%80%A3%E9%82%A6",
+      "original_revisions": 4
+    },
+    {
+      "title": "アラスカ連邦管理地域",
+      "file": "content/wiki/article-401.md",
+      "url": "/wiki/アラスカ連邦管理地域/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%A9%E3%82%B9%E3%82%AB%E9%80%A3%E9%82%A6%E7%AE%A1%E7%90%86%E5%9C%B0%E5%9F%9F",
+      "original_revisions": 7
+    },
+    {
+      "title": "モルディブ・スルタン国",
+      "file": "content/wiki/article-402.md",
+      "url": "/wiki/モルディブ・スルタン国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A2%E3%83%AB%E3%83%87%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B9%E3%83%AB%E3%82%BF%E3%83%B3%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "モンゴル人民共和国",
+      "file": "content/wiki/article-404.md",
+      "url": "/wiki/モンゴル人民共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 9
+    },
+    {
+      "title": "中華連邦共和国",
+      "file": "content/wiki/article-405.md",
+      "url": "/wiki/中華連邦共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E4%B8%AD%E8%8F%AF%E9%80%A3%E9%82%A6%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 42
+    },
+    {
+      "title": "越南民国",
+      "file": "content/wiki/article-406.md",
+      "url": "/wiki/越南民国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E8%B6%8A%E5%8D%97%E6%B0%91%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "インド共和国",
+      "file": "content/wiki/article-407.md",
+      "url": "/wiki/インド共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%B3%E3%83%89%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "パキスタン革命軍",
+      "file": "content/wiki/article-408.md",
+      "url": "/wiki/パキスタン革命軍/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%91%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3%E9%9D%A9%E5%91%BD%E8%BB%8D",
+      "original_revisions": 9
+    },
+    {
+      "title": "セイロン",
+      "file": "content/wiki/article-409.md",
+      "url": "/wiki/セイロン/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%BB%E3%82%A4%E3%83%AD%E3%83%B3",
+      "original_revisions": 7
+    },
+    {
+      "title": "ネパール王国",
+      "file": "content/wiki/article-410.md",
+      "url": "/wiki/ネパール王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "アフガニスタン王国",
+      "file": "content/wiki/article-411.md",
+      "url": "/wiki/アフガニスタン王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%95%E3%82%AC%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "イラン帝国",
+      "file": "content/wiki/article-412.md",
+      "url": "/wiki/イラン帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%A9%E3%83%B3%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "イラク・ハシミテ王国",
+      "file": "content/wiki/article-413.md",
+      "url": "/wiki/イラク・ハシミテ王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%A9%E3%82%AF%E3%83%BB%E3%83%8F%E3%82%B7%E3%83%9F%E3%83%86%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "サウジアラビア王国",
+      "file": "content/wiki/article-414.md",
+      "url": "/wiki/サウジアラビア王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "マスカット及びオマーン・スルタン国",
+      "file": "content/wiki/article-415.md",
+      "url": "/wiki/マスカット及びオマーン・スルタン国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9E%E3%82%B9%E3%82%AB%E3%83%83%E3%83%88%E5%8F%8A%E3%81%B3%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%B9%E3%83%AB%E3%82%BF%E3%83%B3%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "シリア共和国",
+      "file": "content/wiki/article-416.md",
+      "url": "/wiki/シリア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B7%E3%83%AA%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 13
+    },
+    {
+      "title": "トルーシャル・オマーン首長国",
+      "file": "content/wiki/article-417.md",
+      "url": "/wiki/トルーシャル・オマーン首長国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%88%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3%E9%A6%96%E9%95%B7%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "イエメン・ムタワッキリテ王国",
+      "file": "content/wiki/article-418.md",
+      "url": "/wiki/イエメン・ムタワッキリテ王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%A8%E3%83%A1%E3%83%B3%E3%83%BB%E3%83%A0%E3%82%BF%E3%83%AF%E3%83%83%E3%82%AD%E3%83%AA%E3%83%86%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "左翼戦線",
+      "file": "content/wiki/article-420.md",
+      "url": "/wiki/左翼戦線/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%B7%A6%E7%BF%BC%E6%88%A6%E7%B7%9A",
+      "original_revisions": 4
+    },
+    {
+      "title": "リベリア共和国",
+      "file": "content/wiki/article-422.md",
+      "url": "/wiki/リベリア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AA%E3%83%99%E3%83%AA%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "トルコ共和国",
+      "file": "content/wiki/article-427.md",
+      "url": "/wiki/トルコ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%88%E3%83%AB%E3%82%B3%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 6
+    },
+    {
+      "title": "アイスランド共和国",
+      "file": "content/wiki/article-428.md",
+      "url": "/wiki/アイスランド共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "スウェーデン王国",
+      "file": "content/wiki/article-429.md",
+      "url": "/wiki/スウェーデン王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%87%E3%83%B3%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "アイルランド共和国",
+      "file": "content/wiki/article-430.md",
+      "url": "/wiki/アイルランド共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "モナコ公国",
+      "file": "content/wiki/article-431.md",
+      "url": "/wiki/モナコ公国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A2%E3%83%8A%E3%82%B3%E5%85%AC%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "アンドラ共同公国",
+      "file": "content/wiki/article-432.md",
+      "url": "/wiki/アンドラ共同公国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%B3%E3%83%89%E3%83%A9%E5%85%B1%E5%90%8C%E5%85%AC%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "スイス連邦",
+      "file": "content/wiki/article-433.md",
+      "url": "/wiki/スイス連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B9%E3%82%A4%E3%82%B9%E9%80%A3%E9%82%A6",
+      "original_revisions": 3
+    },
+    {
+      "title": "ポルトガル共和国",
+      "file": "content/wiki/article-434.md",
+      "url": "/wiki/ポルトガル共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 8
+    },
+    {
+      "title": "スペイン国",
+      "file": "content/wiki/article-435.md",
+      "url": "/wiki/スペイン国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E5%9B%BD",
+      "original_revisions": 5
+    },
+    {
+      "title": "バチカン市国",
+      "file": "content/wiki/article-436.md",
+      "url": "/wiki/バチカン市国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%90%E3%83%81%E3%82%AB%E3%83%B3%E5%B8%82%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "晴朗極まる共和国サンマリノ",
+      "file": "content/wiki/article-437.md",
+      "url": "/wiki/晴朗極まる共和国サンマリノ/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%99%B4%E6%9C%97%E6%A5%B5%E3%81%BE%E3%82%8B%E5%85%B1%E5%92%8C%E5%9B%BD%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AA%E3%83%8E",
+      "original_revisions": 5
+    },
+    {
+      "title": "フィンランド共和国",
+      "file": "content/wiki/article-438.md",
+      "url": "/wiki/フィンランド共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 7
+    },
+    {
+      "title": "ハンガリー王国",
+      "file": "content/wiki/article-439.md",
+      "url": "/wiki/ハンガリー王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BC%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 9
+    },
+    {
+      "title": "ギリシャ王国",
+      "file": "content/wiki/article-440.md",
+      "url": "/wiki/ギリシャ王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 15
+    },
+    {
+      "title": "ルーマニア王国",
+      "file": "content/wiki/article-442.md",
+      "url": "/wiki/ルーマニア王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AB%E3%83%BC%E3%83%9E%E3%83%8B%E3%82%A2%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 11
+    },
+    {
+      "title": "メキシコ合衆国",
+      "file": "content/wiki/article-443.md",
+      "url": "/wiki/メキシコ合衆国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3%E5%90%88%E8%A1%86%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "グアテマラ共和国",
+      "file": "content/wiki/article-444.md",
+      "url": "/wiki/グアテマラ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B0%E3%82%A2%E3%83%86%E3%83%9E%E3%83%A9%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "ホンジュラス共和国",
+      "file": "content/wiki/article-445.md",
+      "url": "/wiki/ホンジュラス共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9B%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B9%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "エルサルバドル共和国",
+      "file": "content/wiki/article-446.md",
+      "url": "/wiki/エルサルバドル共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A8%E3%83%AB%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "ニカラグア共和国",
+      "file": "content/wiki/article-447.md",
+      "url": "/wiki/ニカラグア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8B%E3%82%AB%E3%83%A9%E3%82%B0%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "コスタリカ共和国",
+      "file": "content/wiki/article-448.md",
+      "url": "/wiki/コスタリカ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B3%E3%82%B9%E3%82%BF%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "パナマ共和国",
+      "file": "content/wiki/article-449.md",
+      "url": "/wiki/パナマ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%91%E3%83%8A%E3%83%9E%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "アルゼンチン共和国",
+      "file": "content/wiki/article-450.md",
+      "url": "/wiki/アルゼンチン共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%B3%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "ウルグアイ東方共和国",
+      "file": "content/wiki/article-451.md",
+      "url": "/wiki/ウルグアイ東方共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A6%E3%83%AB%E3%82%B0%E3%82%A2%E3%82%A4%E6%9D%B1%E6%96%B9%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "パラグアイ共和国",
+      "file": "content/wiki/article-452.md",
+      "url": "/wiki/パラグアイ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%91%E3%83%A9%E3%82%B0%E3%82%A2%E3%82%A4%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "ブラジル合衆国",
+      "file": "content/wiki/article-453.md",
+      "url": "/wiki/ブラジル合衆国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB%E5%90%88%E8%A1%86%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "チリ共和国",
+      "file": "content/wiki/article-454.md",
+      "url": "/wiki/チリ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%81%E3%83%AA%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "エクアドル共和国",
+      "file": "content/wiki/article-457.md",
+      "url": "/wiki/エクアドル共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A8%E3%82%AF%E3%82%A2%E3%83%89%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "ベネズエラ合衆国",
+      "file": "content/wiki/article-458.md",
+      "url": "/wiki/ベネズエラ合衆国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%99%E3%83%8D%E3%82%BA%E3%82%A8%E3%83%A9%E5%90%88%E8%A1%86%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "コロンビア共和国",
+      "file": "content/wiki/article-459.md",
+      "url": "/wiki/コロンビア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%93%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "ドミニカ共和国",
+      "file": "content/wiki/article-460.md",
+      "url": "/wiki/ドミニカ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "ハイチ共和国",
+      "file": "content/wiki/article-461.md",
+      "url": "/wiki/ハイチ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8F%E3%82%A4%E3%83%81%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 4
+    },
+    {
+      "title": "キューバ共和国",
+      "file": "content/wiki/article-462.md",
+      "url": "/wiki/キューバ共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "アップデート履歴",
+      "file": "content/wiki/article-470.md",
+      "url": "/wiki/アップデート履歴/",
+      "categories": [
+        "一覧"
+      ],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%B1%A5%E6%AD%B4",
+      "original_revisions": 13
+    },
+    {
+      "title": "オストラント国家弁務官区",
+      "file": "content/wiki/article-483.md",
+      "url": "/wiki/オストラント国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AA%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%88%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 61
+    },
+    {
+      "title": "ソビエト社会主義共和国連邦",
+      "file": "content/wiki/article-486.md",
+      "url": "/wiki/ソビエト社会主義共和国連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%BD%E3%83%93%E3%82%A8%E3%83%88%E7%A4%BE%E4%BC%9A%E4%B8%BB%E7%BE%A9%E5%85%B1%E5%92%8C%E5%9B%BD%E9%80%A3%E9%82%A6",
+      "original_revisions": 14
+    },
+    {
+      "title": "極東国",
+      "file": "content/wiki/article-495.md",
+      "url": "/wiki/極東国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%A5%B5%E6%9D%B1%E5%9B%BD",
+      "original_revisions": 15
+    },
+    {
+      "title": "戦後のアメリカ（１９４４‐１９５０）",
+      "file": "content/wiki/article-499.md",
+      "url": "/wiki/戦後のアメリカ（１９４４‐１９５０）/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%88%A6%E5%BE%8C%E3%81%AE%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%EF%BC%88%EF%BC%91%EF%BC%99%EF%BC%94%EF%BC%94%E2%80%90%EF%BC%91%EF%BC%99%EF%BC%95%EF%BC%90%EF%BC%89",
+      "original_revisions": 40
+    },
+    {
+      "title": "日本領昭南地域",
+      "file": "content/wiki/article-540.md",
+      "url": "/wiki/日本領昭南地域/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%97%A5%E6%9C%AC%E9%A0%98%E6%98%AD%E5%8D%97%E5%9C%B0%E5%9F%9F",
+      "original_revisions": 11
+    },
+    {
+      "title": "勘察加占領軍地域",
+      "file": "content/wiki/article-541.md",
+      "url": "/wiki/勘察加占領軍地域/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%8B%98%E5%AF%9F%E5%8A%A0%E5%8D%A0%E9%A0%98%E8%BB%8D%E5%9C%B0%E5%9F%9F",
+      "original_revisions": 17
+    },
+    {
+      "title": "西インド諸島連邦",
+      "file": "content/wiki/article-551.md",
+      "url": "/wiki/西インド諸島連邦/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E8%A5%BF%E3%82%A4%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6%E9%80%A3%E9%82%A6",
+      "original_revisions": 9
+    },
+    {
+      "title": "大東亜戦争",
+      "file": "content/wiki/article-552.md",
+      "url": "/wiki/大東亜戦争/",
+      "categories": [
+        "戦闘"
+      ],
+      "infobox": "戦闘",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%A4%A7%E6%9D%B1%E4%BA%9C%E6%88%A6%E4%BA%89",
+      "original_revisions": 9
+    },
+    {
+      "title": "開発情報",
+      "file": "content/wiki/article-557.md",
+      "url": "/wiki/開発情報/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E9%96%8B%E7%99%BA%E6%83%85%E5%A0%B1",
+      "original_revisions": 1
+    },
+    {
+      "title": "開発状況",
+      "file": "content/wiki/article-568.md",
+      "url": "/wiki/開発状況/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E9%96%8B%E7%99%BA%E7%8A%B6%E6%B3%81",
+      "original_revisions": 2
+    },
+    {
+      "title": "リヒテンシュタイン公国",
+      "file": "content/wiki/article-689.md",
+      "url": "/wiki/リヒテンシュタイン公国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AA%E3%83%92%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3%E5%85%AC%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "プエルトリコ自治連邦区",
+      "file": "content/wiki/article-690.md",
+      "url": "/wiki/プエルトリコ自治連邦区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%97%E3%82%A8%E3%83%AB%E3%83%88%E3%83%AA%E3%82%B3%E8%87%AA%E6%B2%BB%E9%80%A3%E9%82%A6%E5%8C%BA",
+      "original_revisions": 4
+    },
+    {
+      "title": "イタリア領スエズ運河",
+      "file": "content/wiki/article-691.md",
+      "url": "/wiki/イタリア領スエズ運河/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A0%98%E3%82%B9%E3%82%A8%E3%82%BA%E9%81%8B%E6%B2%B3",
+      "original_revisions": 3
+    },
+    {
+      "title": "イタリア領北アフリカ植民地",
+      "file": "content/wiki/article-692.md",
+      "url": "/wiki/イタリア領北アフリカ植民地/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A0%98%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E6%A4%8D%E6%B0%91%E5%9C%B0",
+      "original_revisions": 6
+    },
+    {
+      "title": "イタリア領東アフリカ帝国",
+      "file": "content/wiki/article-693.md",
+      "url": "/wiki/イタリア領東アフリカ帝国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A0%98%E6%9D%B1%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%B8%9D%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "イタリア保護領アルバニア王国",
+      "file": "content/wiki/article-694.md",
+      "url": "/wiki/イタリア保護領アルバニア王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E4%BF%9D%E8%AD%B7%E9%A0%98%E3%82%A2%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 37
+    },
+    {
+      "title": "ノルトフランクライヒ占領軍地域",
+      "file": "content/wiki/article-718.md",
+      "url": "/wiki/ノルトフランクライヒ占領軍地域/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8E%E3%83%AB%E3%83%88%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%92%E5%8D%A0%E9%A0%98%E8%BB%8D%E5%9C%B0%E5%9F%9F",
+      "original_revisions": 4
+    },
+    {
+      "title": "ノルヴェーゲン国家弁務官区",
+      "file": "content/wiki/article-719.md",
+      "url": "/wiki/ノルヴェーゲン国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8E%E3%83%AB%E3%83%B4%E3%82%A7%E3%83%BC%E3%82%B2%E3%83%B3%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 8
+    },
+    {
+      "title": "ニーダーランデ国家弁務官区",
+      "file": "content/wiki/article-720.md",
+      "url": "/wiki/ニーダーランデ国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8B%E3%83%BC%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%87%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 6
+    },
+    {
+      "title": "ベルギエン及びノルトフランクライヒ国家弁務官区",
+      "file": "content/wiki/article-721.md",
+      "url": "/wiki/ベルギエン及びノルトフランクライヒ国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%99%E3%83%AB%E3%82%AE%E3%82%A8%E3%83%B3%E5%8F%8A%E3%81%B3%E3%83%8E%E3%83%AB%E3%83%88%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%92%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 9
+    },
+    {
+      "title": "ウクライネ国家弁務官区",
+      "file": "content/wiki/article-722.md",
+      "url": "/wiki/ウクライネ国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8D%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 6
+    },
+    {
+      "title": "モスコヴィエン国家弁務官区",
+      "file": "content/wiki/article-723.md",
+      "url": "/wiki/モスコヴィエン国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%A2%E3%82%B9%E3%82%B3%E3%83%B4%E3%82%A3%E3%82%A8%E3%83%B3%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 8
+    },
+    {
+      "title": "ドン＝ヴォルガ国家弁務官区",
+      "file": "content/wiki/article-724.md",
+      "url": "/wiki/ドン＝ヴォルガ国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%89%E3%83%B3%EF%BC%9D%E3%83%B4%E3%82%A9%E3%83%AB%E3%82%AC%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 5
+    },
+    {
+      "title": "カウカージエン国家弁務官区",
+      "file": "content/wiki/article-725.md",
+      "url": "/wiki/カウカージエン国家弁務官区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%82%A6%E3%82%AB%E3%83%BC%E3%82%B8%E3%82%A8%E3%83%B3%E5%9B%BD%E5%AE%B6%E5%BC%81%E5%8B%99%E5%AE%98%E5%8C%BA",
+      "original_revisions": 8
+    },
+    {
+      "title": "ミッテルアフリカ国家植民地",
+      "file": "content/wiki/article-726.md",
+      "url": "/wiki/ミッテルアフリカ国家植民地/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9F%E3%83%83%E3%83%86%E3%83%AB%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%9B%BD%E5%AE%B6%E6%A4%8D%E6%B0%91%E5%9C%B0",
+      "original_revisions": 4
+    },
+    {
+      "title": "ベーメン及びメーレン保護領",
+      "file": "content/wiki/article-727.md",
+      "url": "/wiki/ベーメン及びメーレン保護領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%99%E3%83%BC%E3%83%A1%E3%83%B3%E5%8F%8A%E3%81%B3%E3%83%A1%E3%83%BC%E3%83%AC%E3%83%B3%E4%BF%9D%E8%AD%B7%E9%A0%98",
+      "original_revisions": 7
+    },
+    {
+      "title": "ポーレン総督領",
+      "file": "content/wiki/article-728.md",
+      "url": "/wiki/ポーレン総督領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9D%E3%83%BC%E3%83%AC%E3%83%B3%E7%B7%8F%E7%9D%A3%E9%A0%98",
+      "original_revisions": 7
+    },
+    {
+      "title": "国家結束主義",
+      "file": "content/wiki/article-733.md",
+      "url": "/wiki/国家結束主義/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%9B%BD%E5%AE%B6%E7%B5%90%E6%9D%9F%E4%B8%BB%E7%BE%A9",
+      "original_revisions": 1
+    },
+    {
+      "title": "アメリカ軍",
+      "file": "content/wiki/article-737.md",
+      "url": "/wiki/アメリカ軍/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E8%BB%8D",
+      "original_revisions": 7
+    },
+    {
+      "title": "カール・ムント",
+      "file": "content/wiki/article-743.md",
+      "url": "/wiki/カール・ムント/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A0%E3%83%B3%E3%83%88",
+      "original_revisions": 2
+    },
+    {
+      "title": "キューバ海軍艦艇一覧",
+      "file": "content/wiki/article-744.md",
+      "url": "/wiki/キューバ海軍艦艇一覧/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90%E6%B5%B7%E8%BB%8D%E8%89%A6%E8%89%87%E4%B8%80%E8%A6%A7",
+      "original_revisions": 6
+    },
+    {
+      "title": "富士（戦艦）",
+      "file": "content/wiki/article-745.md",
+      "url": "/wiki/富士（戦艦）/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%AF%8C%E5%A3%AB%EF%BC%88%E6%88%A6%E8%89%A6%EF%BC%89",
+      "original_revisions": 2
+    },
+    {
+      "title": "アルバニアの共産主義",
+      "file": "content/wiki/article-748.md",
+      "url": "/wiki/アルバニアの共産主義/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2%E3%81%AE%E5%85%B1%E7%94%A3%E4%B8%BB%E7%BE%A9",
+      "original_revisions": 1
+    },
+    {
+      "title": "ドワイト・D・アイゼンハワー（Dwight David Eisenhower）",
+      "file": "content/wiki/article-750.md",
+      "url": "/wiki/ドワイト・D・アイゼンハワー（Dwight_David_Eisenhower）/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%89%E3%83%AF%E3%82%A4%E3%83%88%E3%83%BBD%E3%83%BB%E3%82%A2%E3%82%A4%E3%82%BC%E3%83%B3%E3%83%8F%E3%83%AF%E3%83%BC%EF%BC%88Dwight_David_Eisenhower%EF%BC%89",
+      "original_revisions": 1
+    },
+    {
+      "title": "リンドン・ジョンソン（Lyndon Baines Johnson）",
+      "file": "content/wiki/article-751.md",
+      "url": "/wiki/リンドン・ジョンソン（Lyndon_Baines_Johnson）/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AA%E3%83%B3%E3%83%89%E3%83%B3%E3%83%BB%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%BD%E3%83%B3%EF%BC%88Lyndon_Baines_Johnson%EF%BC%89",
+      "original_revisions": 1
+    },
+    {
+      "title": "フランシス・パーカー・ヨッキー（Francis Parker Yockey）",
+      "file": "content/wiki/article-753.md",
+      "url": "/wiki/フランシス・パーカー・ヨッキー（Francis_Parker_Yockey）/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%BB%E3%83%A8%E3%83%83%E3%82%AD%E3%83%BC%EF%BC%88Francis_Parker_Yockey%EF%BC%89",
+      "original_revisions": 5
+    },
+    {
+      "title": "トルキスタン軍団",
+      "file": "content/wiki/article-756.md",
+      "url": "/wiki/トルキスタン軍団/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%88%E3%83%AB%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3%E8%BB%8D%E5%9B%A3",
+      "original_revisions": 3
+    },
+    {
+      "title": "イタリア保護領エルサレム王国",
+      "file": "content/wiki/article-757.md",
+      "url": "/wiki/イタリア保護領エルサレム王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E4%BF%9D%E8%AD%B7%E9%A0%98%E3%82%A8%E3%83%AB%E3%82%B5%E3%83%AC%E3%83%A0%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "ペルー共和国",
+      "file": "content/wiki/article-759.md",
+      "url": "/wiki/ペルー共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9A%E3%83%AB%E3%83%BC%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "ボリビア共和国",
+      "file": "content/wiki/article-760.md",
+      "url": "/wiki/ボリビア共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9C%E3%83%AA%E3%83%93%E3%82%A2%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "ジョージ・リンカーンロックウェル",
+      "file": "content/wiki/article-767.md",
+      "url": "/wiki/ジョージ・リンカーンロックウェル/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%83%BB%E3%83%AA%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%AB",
+      "original_revisions": 3
+    },
+    {
+      "title": "キューバ級軽巡洋艦",
+      "file": "content/wiki/article-768.md",
+      "url": "/wiki/キューバ級軽巡洋艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90%E7%B4%9A%E8%BB%BD%E5%B7%A1%E6%B4%8B%E8%89%A6",
+      "original_revisions": 2
+    },
+    {
+      "title": "定遠級戦艦",
+      "file": "content/wiki/article-769.md",
+      "url": "/wiki/定遠級戦艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%AE%9A%E9%81%A0%E7%B4%9A%E6%88%A6%E8%89%A6",
+      "original_revisions": 4
+    },
+    {
+      "title": "パトリア（砲艦）",
+      "file": "content/wiki/article-770.md",
+      "url": "/wiki/パトリア（砲艦）/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%91%E3%83%88%E3%83%AA%E3%82%A2%EF%BC%88%E7%A0%B2%E8%89%A6%EF%BC%89",
+      "original_revisions": 3
+    },
+    {
+      "title": "ハバナ級カッター",
+      "file": "content/wiki/article-772.md",
+      "url": "/wiki/ハバナ級カッター/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8F%E3%83%90%E3%83%8A%E7%B4%9A%E3%82%AB%E3%83%83%E3%82%BF%E3%83%BC",
+      "original_revisions": 2
+    },
+    {
+      "title": "バイレ級砲艦",
+      "file": "content/wiki/article-773.md",
+      "url": "/wiki/バイレ級砲艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%90%E3%82%A4%E3%83%AC%E7%B4%9A%E7%A0%B2%E8%89%A6",
+      "original_revisions": 2
+    },
+    {
+      "title": "ディエス・デ・オクトゥブレ級砲艦",
+      "file": "content/wiki/article-774.md",
+      "url": "/wiki/ディエス・デ・オクトゥブレ級砲艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%87%E3%82%A3%E3%82%A8%E3%82%B9%E3%83%BB%E3%83%87%E3%83%BB%E3%82%AA%E3%82%AF%E3%83%88%E3%82%A5%E3%83%96%E3%83%AC%E7%B4%9A%E7%A0%B2%E8%89%A6",
+      "original_revisions": 2
+    },
+    {
+      "title": "満州国海軍艦艇一覧",
+      "file": "content/wiki/article-775.md",
+      "url": "/wiki/満州国海軍艦艇一覧/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E6%BA%80%E5%B7%9E%E5%9B%BD%E6%B5%B7%E8%BB%8D%E8%89%A6%E8%89%87%E4%B8%80%E8%A6%A7",
+      "original_revisions": 2
+    },
+    {
+      "title": "セルビア海軍艦艇一覧",
+      "file": "content/wiki/article-776.md",
+      "url": "/wiki/セルビア海軍艦艇一覧/",
+      "categories": [],
+      "infobox": null,
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%BB%E3%83%AB%E3%83%93%E3%82%A2%E6%B5%B7%E8%BB%8D%E8%89%A6%E8%89%87%E4%B8%80%E8%A6%A7",
+      "original_revisions": 3
+    },
+    {
+      "title": "Визцаиа級仮装巡洋艦",
+      "file": "content/wiki/article-778.md",
+      "url": "/wiki/Визцаиа級仮装巡洋艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%D0%92%D0%B8%D0%B7%D1%86%D0%B0%D0%B8%D0%B0%E7%B4%9A%E4%BB%AE%E8%A3%85%E5%B7%A1%E6%B4%8B%E8%89%A6",
+      "original_revisions": 2
+    },
+    {
+      "title": "Нестин級駆逐艦",
+      "file": "content/wiki/article-779.md",
+      "url": "/wiki/Нестин級駆逐艦/",
+      "categories": [
+        "艦艇"
+      ],
+      "infobox": "艦艇",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%D0%9D%D0%B5%D1%81%D1%82%D0%B8%D0%BD%E7%B4%9A%E9%A7%86%E9%80%90%E8%89%A6",
+      "original_revisions": 2
+    },
+    {
+      "title": "北アフリカ戦線",
+      "file": "content/wiki/article-786.md",
+      "url": "/wiki/北アフリカ戦線/",
+      "categories": [],
+      "infobox": "Infobox",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E5%8C%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E6%88%A6%E7%B7%9A",
+      "original_revisions": 5
+    },
+    {
+      "title": "ローマ協商",
+      "file": "content/wiki/article-790.md",
+      "url": "/wiki/ローマ協商/",
+      "categories": [
+        "陣営"
+      ],
+      "infobox": "陣営",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AD%E3%83%BC%E3%83%9E%E5%8D%94%E5%95%86",
+      "original_revisions": 11
+    },
+    {
+      "title": "レバノン共和国",
+      "file": "content/wiki/article-795.md",
+      "url": "/wiki/レバノン共和国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%AC%E3%83%90%E3%83%8E%E3%83%B3%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "original_revisions": 2
+    },
+    {
+      "title": "インドネシア領西イリアン・ジャヤ州",
+      "file": "content/wiki/article-797.md",
+      "url": "/wiki/インドネシア領西イリアン・ジャヤ州/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E9%A0%98%E8%A5%BF%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%A4%E5%B7%9E",
+      "original_revisions": 2
+    },
+    {
+      "title": "ニューギニア共同軍政区",
+      "file": "content/wiki/article-798.md",
+      "url": "/wiki/ニューギニア共同軍政区/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AE%E3%83%8B%E3%82%A2%E5%85%B1%E5%90%8C%E8%BB%8D%E6%94%BF%E5%8C%BA",
+      "original_revisions": 5
+    },
+    {
+      "title": "オーストラリア領パプアニューギニア行政連合",
+      "file": "content/wiki/article-834.md",
+      "url": "/wiki/オーストラリア領パプアニューギニア行政連合/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2%E9%A0%98%E3%83%91%E3%83%97%E3%82%A2%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AE%E3%83%8B%E3%82%A2%E8%A1%8C%E6%94%BF%E9%80%A3%E5%90%88",
+      "original_revisions": 4
+    },
+    {
+      "title": "クウェート首長国",
+      "file": "content/wiki/article-867.md",
+      "url": "/wiki/クウェート首長国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88%E9%A6%96%E9%95%B7%E5%9B%BD",
+      "original_revisions": 3
+    },
+    {
+      "title": "イギリス領ゴールドコースト植民地",
+      "file": "content/wiki/article-871.md",
+      "url": "/wiki/イギリス領ゴールドコースト植民地/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B3%E3%83%BC%E3%82%B9%E3%83%88%E6%A4%8D%E6%B0%91%E5%9C%B0",
+      "original_revisions": 4
+    },
+    {
+      "title": "イギリス領バストランド植民地",
+      "file": "content/wiki/article-873.md",
+      "url": "/wiki/イギリス領バストランド植民地/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%83%90%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%89%E6%A4%8D%E6%B0%91%E5%9C%B0",
+      "original_revisions": 5
+    },
+    {
+      "title": "イギリス領南ローデシア植民地",
+      "file": "content/wiki/article-875.md",
+      "url": "/wiki/イギリス領南ローデシア植民地/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E5%8D%97%E3%83%AD%E3%83%BC%E3%83%87%E3%82%B7%E3%82%A2%E6%A4%8D%E6%B0%91%E5%9C%B0",
+      "original_revisions": 2
+    },
+    {
+      "title": "イギリス領シエラレオネ植民地及び保護領",
+      "file": "content/wiki/article-877.md",
+      "url": "/wiki/イギリス領シエラレオネ植民地及び保護領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%B7%E3%82%A8%E3%83%A9%E3%83%AC%E3%82%AA%E3%83%8D%E6%A4%8D%E6%B0%91%E5%9C%B0%E5%8F%8A%E3%81%B3%E4%BF%9D%E8%AD%B7%E9%A0%98",
+      "original_revisions": 3
+    },
+    {
+      "title": "イギリス領ガンビア植民地及び保護領",
+      "file": "content/wiki/article-879.md",
+      "url": "/wiki/イギリス領ガンビア植民地及び保護領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%AC%E3%83%B3%E3%83%93%E3%82%A2%E6%A4%8D%E6%B0%91%E5%9C%B0%E5%8F%8A%E3%81%B3%E4%BF%9D%E8%AD%B7%E9%A0%98",
+      "original_revisions": 2
+    },
+    {
+      "title": "イギリス領ナイジェリア植民地及び保護領",
+      "file": "content/wiki/article-881.md",
+      "url": "/wiki/イギリス領ナイジェリア植民地及び保護領/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%83%8A%E3%82%A4%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2%E6%A4%8D%E6%B0%91%E5%9C%B0%E5%8F%8A%E3%81%B3%E4%BF%9D%E8%AD%B7%E9%A0%98",
+      "original_revisions": 2
+    },
+    {
+      "title": "イギリス保護領ベチュアナランド",
+      "file": "content/wiki/article-883.md",
+      "url": "/wiki/イギリス保護領ベチュアナランド/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E4%BF%9D%E8%AD%B7%E9%A0%98%E3%83%99%E3%83%81%E3%83%A5%E3%82%A2%E3%83%8A%E3%83%A9%E3%83%B3%E3%83%89",
+      "original_revisions": 1
+    },
+    {
+      "title": "イギリス保護領スワジランド",
+      "file": "content/wiki/article-884.md",
+      "url": "/wiki/イギリス保護領スワジランド/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E4%BF%9D%E8%AD%B7%E9%A0%98%E3%82%B9%E3%83%AF%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%89",
+      "original_revisions": 3
+    },
+    {
+      "title": "イギリス保護領アデン",
+      "file": "content/wiki/article-885.md",
+      "url": "/wiki/イギリス保護領アデン/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E4%BF%9D%E8%AD%B7%E9%A0%98%E3%82%A2%E3%83%87%E3%83%B3",
+      "original_revisions": 2
+    },
+    {
+      "title": "シッキム王国",
+      "file": "content/wiki/article-904.md",
+      "url": "/wiki/シッキム王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%B7%E3%83%83%E3%82%AD%E3%83%A0%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "マイソール王国",
+      "file": "content/wiki/article-911.md",
+      "url": "/wiki/マイソール王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%9E%E3%82%A4%E3%82%BD%E3%83%BC%E3%83%AB%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "カシミール王国",
+      "file": "content/wiki/article-914.md",
+      "url": "/wiki/カシミール王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%82%B7%E3%83%9F%E3%83%BC%E3%83%AB%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "カラート・ハン国",
+      "file": "content/wiki/article-915.md",
+      "url": "/wiki/カラート・ハン国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%82%AB%E3%83%A9%E3%83%BC%E3%83%88%E3%83%BB%E3%83%8F%E3%83%B3%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "トラヴァンコール王国",
+      "file": "content/wiki/article-917.md",
+      "url": "/wiki/トラヴァンコール王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%88%E3%83%A9%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "ハイデラバード王国",
+      "file": "content/wiki/article-919.md",
+      "url": "/wiki/ハイデラバード王国/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%8F%E3%82%A4%E3%83%87%E3%83%A9%E3%83%90%E3%83%BC%E3%83%89%E7%8E%8B%E5%9B%BD",
+      "original_revisions": 1
+    },
+    {
+      "title": "テランガーナ反乱軍",
+      "file": "content/wiki/article-923.md",
+      "url": "/wiki/テランガーナ反乱軍/",
+      "categories": [
+        "国家"
+      ],
+      "infobox": "国家",
+      "source_url": "https://ssw-mod.fandom.com/ja/wiki/%E3%83%86%E3%83%A9%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%8A%E5%8F%8D%E4%B9%B1%E8%BB%8D",
+      "original_revisions": 2
+    }
+  ],
+  "limitations": [
+    "画像本体はFandom XMLに入っていない。static/images/ に別途コピーが必要。",
+    "Fandom固有テンプレート/高度なHTML/表/ギャラリーは手動確認が必要。",
+    "過去版の編集履歴はGit履歴に再現していない（元XMLを手元で保存）。",
+    "元Fandomサイト上のページ別履歴への帰属リンクを残している。",
+    "Fandomのカテゴリ階層やLuaテンプレートはHugoで自動実行されない。"
+  ],
+  "redirects_resolved_count": 6,
+  "redirects_unresolved_count": 14
+}

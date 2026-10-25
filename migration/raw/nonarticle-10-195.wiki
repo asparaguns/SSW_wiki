@@ -1,0 +1,179 @@
+; 解説
+: {{t|Dialogue}}は、対話文を表示するためのテンプレートです。このテンプレートを使うと、対話文を簡単にWikiで統一した形式に揃えて表示できます。また、対話文は文字下げ、箇条書き、または番号付きの箇条書きで表示させることができます。'''このテンプレートを[[ヘルプ:テンプレートの置換|<code>subst:</code>展開]]させて使うことはできません。'''
+
+: このテンプレートは[[Help:Lua|Lua言語]]でプログラムされています。詳細は[[w:c:dev:Global_Lua_Modules/Dialogue|グローバルLuaモジュールのページ (英語)]]からご覧いただけます。
+
+;必要なファイル
+* [[モジュール:Dialogue]]
+
+; 構文 
+: このテンプレートは、[[Help:wikitext|ウィキテキスト]]を用いて次のように使用します。
+
+<pre>{{dialogue
+|キャラクター1略称=キャラクター1の名前
+|キャラクター2略称=キャラクター2の名前
+|キャラクター3略称=キャラクター3の名前
+...
+|キャラクター略称|会話文1
+|キャラクター略称|会話文2
+|キャラクター略称|会話文3
+...
+|cite = 対話文の説明
+}}</pre>
+
+:各パラメータ (引数)の 詳細は以下の説明をご覧ください。
+
+; パラメータ
+: '''名前付きパラメータで略称を定義付けることができます (任意)。'''以下のように、テンプレートを呼び出すコードの冒頭で指定してください。
+
+<pre>{{dialogue
+|略称1=正式名称1
+|略称2=正式名称2
+|略称3=正式名称3
+...</pre>
+
+: キャラクターの正式名称が定義されている場合、対話文には略称の代わりに正式名称が表示されます。指定しなかった場合は、略称がそのまま表示されます。
+
+: 以下の名前付きパラメータは、対応する会話文の感情を指定できます。
+: "<code>mood1</code>"、"<code>mood2</code>"、"<code>mood3</code>" ……"<code>mood10</code>" まで。
+: (例： "<code>mood1</code>" は、1文めの感情を指定します。)
+: 以下の例のように指定してください。
+
+<pre>...
+|Character|Speech|mood1=怒って
+|Character|Speech|mood2=穏やかに
+|Character|Speech|mood3=興奮して
+...</pre>
+
+: せりふの文章は、位置パラメータ (テンプレート変数名の付いていないパラメータ) で指定します。位置パラメータ　(i.e. <code>=</code> で繋がれていない行) は、セリフの要素を形成しています。
+
+:;<code>パラメータ 1</code> ''(必須)'' : 最初の話者
+:;<code>パラメータ 2</code> ''(任意)'' : セリフ
+:;<code>パラメータ 3</code> ''(任意)'' : 次の話者
+:;<code>パラメータ 4</code> ''(任意)'' : 次のセリフ
+:;<code>パラメータ 5</code> ''(任意)'' : 次の話者
+:;<code>パラメータ 6</code> ''(任意)'' : 次のセリフ
+:;<code>パラメータ 7</code> ''(任意)'' : 以降も同様に...
+
+: 注: キャラクター名の代わりに "<code>action</code>" が指定された場合は、その行はト書き (動きを示す行) として処理されます。なお、本テンプレート上では、ト書きも1行分として数えられます。
+
+: 会話文の説明や出典を示すには、<code>cite =</code> パラメータを使います。
+
+; 使用例
+
+1つ目の例では、全てのせりふに感情を指定しています。
+
+<pre>{{dialogue
+|harry=Harry Enfield
+|bryan=Bryan Adams
+
+|harry|Hello!                |mood1=happy
+|bryan|Oh hello there        |mood2=surprised
+|harry|How are you?          |mood3=inquisitive
+|bryan|Quite fine thank you. |mood4=reserved
+|harry|Oh that's spiffing.   |mood5=spiffed
+|bryan|It is, isn't it?!     |mood6=multo-spiffed
+|harry|Quite so.             |mood7=bored
+|bryan|Well, I'm off!        |mood8=joyous
+|harry|Ta-ta!                |mood9=relieved
+|bryan|Au revoir!            |mood10=sarcastic
+}}</pre>
+
+: は次のようになります...
+
+{{dialogue
+|harry=Harry Enfield
+|bryan=Bryan Adams
+
+|harry|Hello!                |mood1=happy
+|bryan|Oh hello there        |mood2=surprised
+|harry|How are you?          |mood3=inquisitive
+|bryan|Quite fine thank you. |mood4=reserved
+|harry|Oh that's spiffing.   |mood5=spiffed
+|bryan|It is, isn't it?!     |mood6=multo-spiffed
+|harry|Quite so.             |mood7=bored
+|bryan|Well, I'm off!        |mood8=joyous
+|harry|Ta-ta!                |mood9=relieved
+|bryan|Au revoir!            |mood10=sarcastic
+}}
+
+以下の例では、ト書き機能を使っています。
+
+<pre>{{dialogue
+|george=Georgie Boy
+|rachel=Rachel
+
+|action|Enter: George and Rachel
+|george|Good morrow dearest Rachel!|mood2=happy
+|action|Rachel turns to see him
+|rachel|Oh, George, it's you!
+|george|...
+|rachel|Why won't you say anything?!|mood6=worried
+|action|Enter: Guards
+|Guards|We are announcing George's arrest!
+|rachel|Oh my!|mood9=horrified
+|action|George is dragged away.
+}}</pre>
+
+: は次のようになります...
+
+{{dialogue
+|george=Georgie Boy
+|rachel=Rachel
+
+|action|Enter: George and Rachel
+|george|Good morrow dearest Rachel!|mood2=happy
+|action|Rachel turns to see him
+|rachel|Oh, George, it's you!
+|george|...
+|rachel|Why won't you say anything?!|mood6=worried
+|action|Enter: Guards
+|Guards|We are announcing George's arrest!
+|rachel|Oh my!|mood9=horrified
+|action|George is dragged away.
+}}
+
+;: 補足
+
+: 数字付きの箇条書きや、傍点付き箇条書き、インデントを併用することもできます。以下はその例です。
+
+<pre>:{{dialogue|Me|Hello|You|Howdido!}}</pre>
+
+:{{dialogue|Me|Hello|You|Howdido!}}
+
+<pre>#{{dialogue|Me|Hello|You|Howdido!}}
+#{{dialogue|Them|Good afternoon|Us|What a load of rubbish!}}</pre>
+
+#{{dialogue|Me|Hello|You|Howdido!}}
+#{{dialogue|Them|Good afternoon|Us|What a load of rubbish!}}
+
+<pre>*{{dialogue
+|angel=Fortitude
+|angel|I am an angel!|Crowd|We don't believe you!}}
+*{{dialogue
+|angel=Fortitude
+|angel|But I'm being quite serious!|Crowd|Too bad for you then!}}</pre>
+
+*{{dialogue
+|angel=Fortitude
+|angel|I am an angel!|Crowd|We don't believe you!}}
+*{{dialogue
+|angel=Fortitude
+|angel|But I'm being quite serious!|Crowd|Too bad for you then!}}
+
+: 箇条書きやインデントを使う場合、せりふ内で改行してしまうと、余白が正しく表示されないことに注意してください。(例: "Speech<code><nowiki><space></nowiki></code>")
+
+;関連項目
+* [[w:c:ja.templates:Template:Dialogue/wikitext]] - ウィキテキストによる対話文テンプレート
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/引用]]
+<!-- 
+[[en:Template:Dialogue]]
+-->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]</noinclude>

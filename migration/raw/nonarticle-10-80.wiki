@@ -1,0 +1,4 @@
+{{LicenseBox
+|text=このファイルには著作権があります。[[Wikipedia:ja: 著作権法 (アメリカ合衆国)|アメリカ合衆国著作権法]]に従い[[Wikipedia:ja:フェアユース|フェアユース]]とみなす方式で利用されます。}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:フェアユースファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

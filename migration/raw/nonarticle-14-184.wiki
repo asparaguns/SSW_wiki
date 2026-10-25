@@ -1,0 +1,7 @@
+{{LGPL}}
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:LGPLふあいる}}
+[[カテゴリ:画像]]
+<!-- 
+[[en:Category:LGPL files]]
+-->

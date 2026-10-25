@@ -1,0 +1,9 @@
+{{MessageBox
+| header = {{PAGENAME}}の曖昧さ回避のためのページ
+| type = disambiguation
+| text = 以下は同じタイトルを共有しているページへのリンク一覧です。
+| comment = お探しの用語に一番近い記事を選んでください。探したいものがもし一覧になければ[[特別:検索|検索]]をしてください。<br />
+[[Special:Whatlinkshere/{{FULLPAGENAME}}|この記事へリンクしているページ]]を見つけたら、リンクを適切な項目にはりかえてください。
+| class = notice hidden
+| id = disambiguation}}<includeonly>{{#if:{{{doc|}}}||[[カテゴリ:曖昧さ回避]]}}</includeonly><noinclude>
+{{documentation}}</noinclude>

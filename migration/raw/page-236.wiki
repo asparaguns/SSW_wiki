@@ -1,0 +1,222 @@
+<div style="text-align:center;">
+==<span style="vertical-align:middle;">'''大東亜共栄圏'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_JAP.svg|link=大日本帝国|[[大日本帝国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_FAE.svg|link=極東国|[[極東国]]
+FLAG_SIA.svg|link=タイ王国|[[タイ王国]]
+FLAG_INS.svg|link=インドネシア連邦|[[インドネシア連邦]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="4" widths="100">
+FLAG_MAN.svg|link=満州帝国|[[満州帝国]]
+FLAG_MEN_military_government.svg|link=蒙疆軍政府|[[蒙疆軍政府]]
+FLAG_BRM.svg|link=ビルマ国|[[ビルマ国]]
+FLAG_MAL.svg|link=マラヤ連合|[[マラヤ連合]]
+FLAG_VIN.svg|link=ベトナム帝国|[[ベトナム帝国]]
+FLAG_CAM.svg|link=カンボジア王国|[[カンボジア王国]]
+FLAG_LAO.svg|link=ラオス王国|[[ラオス王国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''ゲルマニア合意'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_GER_national_socialism.svg|link=大ドイツ国|[[大ドイツ国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="2" widths="200">
+FLAG_FRA.svg|link=フランス国|[[フランス国]]
+FLAG_TUR.svg|link=トルコ共和国|[[トルコ共和国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="100">
+FLAG_SLO.svg|link=スロバキア共和国|[[スロバキア共和国]]
+FLAG_DEN.svg|link=デンマーク王国|[[デンマーク王国]]
+FLAG_CRO.svg|link=クロアチア独立国|[[クロアチア独立国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''イギリス連邦'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_GBRandIREbyENG.svg|link=グレートブリテン及び北アイルランド連合王国|[[グレートブリテン及び北アイルランド連合王国|連合王国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_CAN_GBRandIREbyENG.svg|link=カナダ自治領|[[カナダ自治領]]
+FLAG_AST_GBRandIREbyENG.svg|link=オーストラリア連邦|[[オーストラリア連邦]]
+FLAG_NZL_GBRandIREbyENG.svg|link=ニュージーランド王国|[[ニュージーランド王国]]
+FLAG_SAF.svg|link=南アフリカ連邦|[[南アフリカ連邦]]
+FLAG_CEYLON.svg|link=セイロン|[[セイロン]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="4" widths="100">
+FLAG WIN.svg|link=西インド諸島連邦|[[西インド諸島連邦]]
+FLAG_KUW.svg|link=クウェート首長国|[[クウェート首長国]]
+FLAG_TRC.svg|link=トルーシャル・オマーン首長国|[[トルーシャル・オマーン首長国]]
+FLAG MSCandOMA.svg|link=マスカット及びオマーン・スルタン国|[[マスカット及びオマーン・スルタン国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''[[ローマ協商]]'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_ITAbySRD.svg|link=イタリア帝国|[[イタリア帝国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_BUL.svg|link=ブルガリア・ツァール国|[[ブルガリア・ツァール国]]
+FLAG_EGY.svg|link=エジプト王国|[[エジプト王国]]
+FLAG_YEM.svg|link=イエメン・ムタワッキリテ王国|[[イエメン・ムタワッキリテ王国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="100">
+FLAG_JOR.svg|link=トランスヨルダン・ハシミテ王国|[[トランスヨルダン・ハシミテ王国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''アメリカ合衆国'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_USA_49.svg|link=アメリカ合衆国|[[アメリカ合衆国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_NEL.svg|link=北東部諸州|[[北東部諸州]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''インターナショナル'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="300">
+FLAG_SOV.svg|link=ソビエト社会主義共和国連邦|[[ソビエト社会主義共和国連邦]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_MON_peoples_republic.svg|link=モンゴル人民共和国|[[モンゴル人民共和国]]
+</gallery>
+==<span style="vertical-align:middle;">'''アジア'''</span>==
+===<u>'''東アジア'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_CHI_federal_republic.svg|link=中華連邦共和国|[[中華連邦共和国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="100">
+FLAG_YUENAN_peopledom.svg|link=越南民国|[[越南民国]]
+</gallery>
+===<u>'''東南アジア'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_PHI.svg|link=フィリピン共和国|[[フィリピン共和国]]
+</gallery>
+
+===<u>'''南アジア'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_AFG.svg|link=アフガニスタン王国|[[アフガニスタン王国]]
+FLAG_IRN.svg|link=イラン帝国|[[イラン帝国]]
+FLAG_SKM.svg|link=シッキム王国|[[シッキム王国]]
+FLAG_TIB.svg|link=チベット王国|[[チベット王国]]
+FLAG_NEP.svg|link=ネパール王国|[[ネパール王国]]
+FLAG_BHU.svg|link=ブータン王国|[[ブータン王国]]
+</gallery>
+====<u>'''インド'''</u> ====
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_IND.svg|link=インド共和国|[[インド共和国]]
+FLAG_KAS.svg|link=カシミール王国|[[カシミール王国]]
+FLAG_KALAT_khanate.svg|link=カラート・ハン国|[[カラート・ハン国]]
+FLAG_TRV.svg|link=トラヴァンコール王国|[[トラヴァンコール王国]]
+FLAG_HYD.svg|link=ハイデラバード王国|[[ハイデラバード王国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="2" widths="200">
+FLAG_TER.svg|link=テランガーナ反乱軍|[[テランガーナ反乱軍]]
+FLAG_PAK.svg|link=パキスタン革命軍|[[パキスタン革命軍]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="100">
+FLAG_MYS.svg|link=マイソール王国|[[マイソール王国]]
+</gallery>
+
+===<u>'''中央アジア'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_TRK.svg|link=トルキスタン軍団|[[トルキスタン軍団]]
+</gallery>
+===<u>'''西アジア'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="4" widths="200">
+FLAG_IRQ.svg|link=イラク・ハシミテ王国|[[イラク・ハシミテ王国]]
+FLAG_SAU.svg|link=サウジアラビア王国|[[サウジアラビア王国]]
+FLAG_SYR.svg|link=シリア共和国|[[シリア共和国]]
+FLAG_LEB.svg|link=レバノン共和国|[[レバノン共和国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''ヨーロッパ'''</span>==
+===<u>'''北ヨーロッパ'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_ICE.svg|link=アイスランド共和国|[[アイスランド共和国]]
+FLAG_SWE.svg|link=スウェーデン王国|[[スウェーデン王国]]
+FLAG_FIN.svg|link=フィンランド共和国|[[フィンランド共和国]]
+</gallery>
+
+===<u>'''西ヨーロッパ'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_IRE.svg|link=アイルランド共和国|[[アイルランド共和国]]
+</gallery>
+===<u>'''中央ヨーロッパ'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_SWI.svg|link=スイス連邦|[[スイス連邦]]
+FLAG_HUN.svg|link=ハンガリー王国|[[ハンガリー王国]]
+FLAG_LIE.svg|link=リヒテンシュタイン公国|[[リヒテンシュタイン公国]]
+</gallery>
+
+===<u>'''南ヨーロッパ'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_ADR.svg|link=アンドラ共同公国|[[アンドラ共同公国]]
+FLAG_SMR.svg|link=晴朗極まる共和国サンマリノ|[[晴朗極まる共和国サンマリノ]]
+FLAG_SPA.svg|link=スペイン国|[[スペイン国]]
+FLAG_VAT.svg|link=バチカン市国|[[バチカン市国]]
+FLAG_POR.svg|link=ポルトガル共和国|[[ポルトガル共和国]]
+FLAG_MCO.svg|link=モナコ公国|[[モナコ公国]]
+</gallery>
+
+===<u>'''東ヨーロッパ'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_GRE.svg|link=ギリシャ王国|[[ギリシャ王国]]
+FLAG_SER.svg|link=セルビア国民国|[[セルビア国民国]]
+FLAG_ROM.svg|link=ルーマニア王国|[[ルーマニア王国]]
+</gallery>
+
+==<span style="vertical-align:middle;">'''アフリカ'''</span>==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="200">
+FLAG_LIB.svg|link=リベリア共和国|[[リベリア共和国]]
+</gallery>
+==<span style="vertical-align:middle;">'''新大陸'''</span>==
+===<u>'''新大陸北部'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_FSA.svg|link=アメリカ共和国|[[アメリカ共和国]]
+FLAG_UTC.svg|link=アメリカ自動車産業連合|[[アメリカ自動車産業連合]]
+FLAG_LFF.svg|link=左翼戦線|[[左翼戦線]]
+FLAG_MEX.svg|link=メキシコ合衆国|[[メキシコ合衆国]]
+</gallery>
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="1" widths="100">
+FLAG_BLS.svg|link=ブラックステート|[[ブラックステート]]
+</gallery>
+
+===<u>'''新大陸中部'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_ELS.svg|link=エルサルバドル共和国|[[エルサルバドル共和国]]
+FLAG_GUA.svg|link=グアテマラ共和国|[[グアテマラ共和国]]
+FLAG_COS.svg|link=コスタリカ共和国|[[コスタリカ共和国]]
+FLAG_NIC.svg|link=ニカラグア共和国|[[ニカラグア共和国]]
+FLAG_PAN.svg|link=パナマ共和国|[[パナマ共和国]]
+FLAG_HON.svg|link=ホンジュラス共和国|[[ホンジュラス共和国]]
+</gallery>
+
+===<u>'''カリブ海'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_CUB.svg|link=キューバ共和国|[[キューバ共和国]]
+FLAG_DOM.svg|link=ドミニカ共和国|[[ドミニカ共和国]]
+FLAG_HAI.svg|link=ハイチ共和国|[[ハイチ共和国]]
+</gallery>
+
+===<u>'''新大陸南部'''</u> ===
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="5" widths="200">
+FLAG_ARG.svg|link=アルゼンチン共和国|[[アルゼンチン共和国]]
+FLAG_URG.svg|link=ウルグアイ東方共和国|[[ウルグアイ東方共和国]]
+FLAG_ECU.svg|link=エクアドル共和国|[[エクアドル共和国]]
+FLAG_COL.svg|link=コロンビア共和国|[[コロンビア共和国]]
+FLAG_CHL.svg|link=チリ共和国|[[チリ共和国]]
+FLAG_PAR.svg|link=パラグアイ共和国|[[パラグアイ共和国]]
+FLAG_BRA.svg|link=ブラジル合衆国|[[ブラジル合衆国]]
+FLAG_VEN.svg|link=ベネズエラ合衆国|[[ベネズエラ合衆国]]
+FLAG_PRU.svg|link=ペルー共和国|[[ペルー共和国]]
+FLAG_BOL.svg|link=ボリビア共和国|[[ボリビア共和国]]
+</gallery>
+
+==<u>'''亡命政府'''</u> ==
+<gallery position="center" spacing="medium" captionalign="center" captionsize="medium" columns="3" widths="200">
+FLAG_FREEFRANCE.svg|link=自由フランス|[[自由フランス]]
+FLAG_NTL.svg|link=ネーデルラント王国亡命政府|[[ネーデルラント王国亡命政府]]
+</gallery>
+</div>
+[[en: List of Countries]]
+[[カテゴリ:一覧]]
+[[カテゴリ:国家]]

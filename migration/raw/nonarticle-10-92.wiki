@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルはもとはウィキペディアやその他のウィキメディア・プロジェクトでアップロードされたものです。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:ウィキメディア・プロジェクトからのファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

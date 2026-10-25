@@ -1,0 +1,14 @@
+== 開発状況 ==
+現在次のアップデートへ向け、作業が行われています。
+
+作業の進捗及び新要素の紹介は公式Twitter、及び公式Discordサーバーの該当チャンネルよりご確認ください。
+
+[https://twitter.com/sun_ssw SSW公式Twitter]
+
+[https://t.co/DSo8JUuvwa SSW公式Discordサーバー]
+
+また、MOD本体はこちらからダウンロードいただけます。
+
+[https://steamcommunity.com/sharedfiles/filedetails/?id=2469546113 SSW MOD ワークショップページ]
+
+[https://steamcommunity.com/sharedfiles/filedetails/?id=2475497374 SSW MOD English Submod Workshop Page]※Hoi4本体アップデート「by blood alone」によって日本語が統合されたため、このMODは非公開になりました。

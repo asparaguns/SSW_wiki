@@ -1,0 +1,28 @@
+;解説
+:h2要素の見出しに囲み線を加えます。
+
+;構文
+: {{t|heading|見出し|3=bg_color=背景色|4=color=文字色|style=code}} と入力します
+
+;使用例
+:<code><nowiki>{{Heading|見出し}}</nowiki></code> は次のようになります...
+:{{Heading|見出し}}
+
+:<code><nowiki>{{Heading|見出し|color=#000000}}</nowiki></code> は次のようになります...
+:{{Heading|見出し|color=#000000}}
+
+:<code><nowiki>{{Heading|見出し|bg_color=orange}}</nowiki></code> は次のようになります...
+:{{Heading|見出し|bg_color=orange}}
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:Heading/simple]]
+* [[w:c:ja.templates:テンプレート:Heading]]
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/デザイン]]
+<!--
+[[en:Template:Heading]]
+-->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]
+</noinclude>

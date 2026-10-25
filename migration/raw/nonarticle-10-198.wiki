@@ -1,0 +1,15 @@
+;解説
+:このテンプレートは指定したページの編集ページへのリンクを表示させるのに使用します。
+
+;構文
+:{{t|editlink|ページ}}
+:{{t|editlink|ページ|リンクテキスト}} 
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/ナビゲーション]]<!--
+[[en:Template:Editlink]]
+ -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

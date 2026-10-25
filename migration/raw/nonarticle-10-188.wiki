@@ -1,0 +1,4 @@
+<includeonly>{{#ifeq:{{#sub:{{{1|{{SITENAME}}}}}|-6}}|コミュニティ|<!-- 
+   -->{{#sub:{{#replace:{{{1|{{SITENAME}}}}}|コミュニティ}}|-{{#len:{{#replace:{{{1|{{SITENAME}}}}}|コミュニティ}}}}-1}}|<!-- 
+   -->{{#sub:{{#replace:{{{1|{{SITENAME}}}}}| Wiki}}|-{{#len:{{#replace:{{{1|{{SITENAME}}}}}| Wiki}}}}-1}}<!-- 
+ -->}}</includeonly><noinclude>{{documentation}}</noinclude>

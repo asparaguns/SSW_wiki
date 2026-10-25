@@ -1,0 +1,21 @@
+;解説
+:このテンプレートは[[Wikipedia:ja:|ウィキペディア]]やその他の[[Wikimedia:|ウィキメディア]]プロジェクトでアップロードされた画像であることを示すために使用します。
+
+;必要なファイル
+* [[テンプレート:LicenseBox]]
+* [[:カテゴリ:ウィキメディア・プロジェクトからのファイル]]
+
+;構文
+:画像情報ページで <code>{{t|From Wikimedia}}</code> と入力してください。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>
+[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+<!-- 
+[[en:Template:From Wikimedia]]
+-->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]
+</noinclude>

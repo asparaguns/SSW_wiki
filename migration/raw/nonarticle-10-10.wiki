@@ -1,0 +1,9 @@
+{{MessageBox
+| header = 削除候補ページ
+| type = delete
+| text = このページは削除候補です。
+| comment = 削除する前に、[[特別:リンク元/{{FULLPAGENAME}}|リンク元]]と[{{fullurl:{{FULLPAGENAME}}|action=history}} ページ履歴]の確認を忘れないでください。
+| class = notice hidden
+| id = delete
+}}<includeonly>{{#if:{{{doc|}}}||[[カテゴリ:削除候補]]}}</includeonly><noinclude>
+{{documentation}}</noinclude>

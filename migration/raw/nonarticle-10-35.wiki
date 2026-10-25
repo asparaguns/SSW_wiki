@@ -1,0 +1,12 @@
+;解説
+:このテンプレートは<code>&lt;div style="clear:both;">&lt;/div></code>の省略表現です。
+:左または右に浮いている任意のオブジェクト (目次、インフォボックス、画像など) の下にあるテンプレートに続いた任意のコンテンツを移動させます。
+;構文
+:記事上のクリアしたい場所で <code>{{t|clr}}</code> と入力してください。
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/デザイン]]
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

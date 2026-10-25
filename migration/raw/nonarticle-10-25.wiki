@@ -1,0 +1,9 @@
+{{MessageBox
+| header = この記事はあなたの編集を待っています！！
+| text = '''[{{fullurl:{{FULLPAGENAMEE}}|action=edit}} 編集]''' ボタンをクリックして、知っていることを追加しましょう！
+| comment = [[:カテゴリ:スタブ|書きかけの記事]]については'''[[ヘルプ:書きかけのページについて|書きかけのページについて]]'''へ{{#if:{{{1|}}}|<div>
+{{{1|}}}</div>}}
+| class = notice hidden
+| type = stub
+| id = stub}}<includeonly>{{#if:{{{doc|}}}||[[カテゴリ:スタブ]]}}</includeonly><noinclude>
+{{documentation}}</noinclude>

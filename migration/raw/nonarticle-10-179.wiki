@@ -1,0 +1,17 @@
+;解説
+:このテンプレートはファイルがMITライセンスであることを示すために使用します。
+
+;必要なファイル
+* [[テンプレート:LicenseBox]]
+* [[:カテゴリ:MITファイル]]
+
+;構文
+:画像情報ページで <code>{{t|MIT}}</code> と入力してください。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+<!-- [[en:Template:MIT]] -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

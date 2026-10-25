@@ -1,0 +1,12 @@
+<includeonly>{| class="article-table plainlinks" style="width:100%;" role="complementary"
+|- style="font-size:18px;"
+! style="padding:0px;" | <div style="width:100%; padding:3px 0px; text-align:center;" class="color1">テンプレートの解説</div>
+|-
+|  ''注意: 上記のテンプレートは部分的または完全に非表示になることがあります。''
+|-
+| 以下の解説を[[{{#if:{{{1|}}}|{{{1}}}|{{FULLPAGENAME}}/doc}}|閲覧・編集する]]。([[テンプレート:Documentation|詳しくはこちら]])
+|-
+| [{{fullurl:{{FULLPAGENAMEE}}/Draft|action=edit}} サンドボックス]や[{{fullurl:{{FULLPAGENAMEE}}/testcases}} テストページ]でこのテンプレートを試すことができます。
+|}
+<div style="margin:0 1em;">
+{{{{{1|{{PAGENAME}}/doc}}}}}</div></includeonly><noinclude>{{Documentation}}[[カテゴリ:テンプレート文書| ]]</noinclude>

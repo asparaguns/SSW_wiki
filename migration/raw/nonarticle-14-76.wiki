@@ -1,0 +1,11 @@
+'''隠しカテゴリ'''の一覧です。通常の[[ヘルプ:カテゴリ|カテゴリ]]とは違い、これらのカテゴリ名はページ下部には表示されません。
+
+カテゴリを隠すには、カテゴリの下部に <code><nowiki>__HIDDENCAT__</nowiki></code> の[[ヘルプ:マジックワード|マジックワード]]を追加してください。
+
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:かくしかてこり}}
+[[カテゴリ:{{SITENAME}}]]
+<!--
+[[en:Category:Hidden categories]]
+[[it:Categoria:Categorie nascoste]]
+-->

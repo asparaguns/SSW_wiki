@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルには、著作権に関する情報がありません。著作権の状態に関する情報が提供されない限り、この画像は削除されます。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:ライセンス不明のファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,28 @@
+;解説
+:このテンプレートは、Wikiの<code>SITENAME</code> (サイト名、{{SITENAME}}) から、“Wiki” または “コミュニティ” を取り除いた文字列を表示します。多くのWikiでは、そのWikiのトピックを示す言葉が表示されることになります。
+:このテンプレートを使うには、文章中のトピックを表示させたい箇所に{{T|{{BASEPAGENAME}}}}を挿入します。
+
+:Wikiの<code>SITENAME</code>から“Wiki”を取り除いたものが、Wikiのトピックを示さない場合は、このテンプレートを編集して、内容をトピックを示す言葉に置き換えてください。
+
+;構文
+:<code>{{t|Topic}}</code> は次のようになります...
+:{{Topic}}
+
+;使用例
+:<code>Fandom Wiki</code> では {{Topic|Fandom Wiki}} になります。
+:<code>Fandomコミュニティ</code> では {{Topic|Fandomコミュニティ}} になります。
+:<code>コミュニティセントラル</code> では {{Topic|コミュニティセントラル}} になります。
+
+;関連項目
+* [[ヘルプ:マジックワード]] … <code>SITENAME</code>について
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/データ]]
+<!--
+[[en:Template:Topic]]
+-->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="wiki-article home-article">
+  <div class="article-kicker">THE SUN SHINING ON THE WORLD</div>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <div class="intro-banner"><span>架空世界・歴史・国家設定の百科事典</span><p>Fandom版の記事をGitHubで管理するWikiとして再構成しています。</p></div>
+  <section class="home-shortcuts" aria-label="主な記事">
+    {{ range site.Data.navigation }}<a class="shortcut" href="{{ .path | relURL }}">{{ .title }} <span aria-hidden="true">→</span></a>{{ end }}
+  </section>
+  <div class="article-body">{{ .Content }}</div>
+  {{ with .Params.source_url }}<section class="attribution"><strong>出典：</strong><a href="{{ . }}">Fandom版のメインページ</a>。元記事の著作者・履歴・ライセンスはリンク先をご確認ください。</section>{{ end }}
+  <section><h2>記事を探す</h2>
+    <div class="link-grid">
+      {{ range first 21 (where site.RegularPages "Section" "wiki") }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+    </div>
+  </section>
+</article>
+{{ end }}

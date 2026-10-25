@@ -1,0 +1,50 @@
+<includeonly>
+<infobox>
+  <title source="title1"/>
+  <image source="image1">
+    <caption source="caption-image1"/>
+  </image>
+  <group>
+    <header source="header1"></header>
+    <data source="本部">
+      <label>本部</label>
+    </data>
+    <data source="公用語">
+      <label>公用語</label>
+    </data>
+    <data source="加盟国">
+      <label>加盟国</label>
+    </data>
+    <data source="設立">
+      <label>設立</label>
+    </data>
+    <data source="row5"/>
+  </group>
+</infobox>
+</includeonly>
+<noinclude>
+使用例:
+{{陣営
+  | title1=例
+  | image1=Example.jpg
+  | caption-image1=例
+  | 本部=例
+  | 公用語=例
+  | 加盟国=例
+  | 設立=例
+  | row5=例}}
+<pre>
+{{陣営
+  | title1=例
+  | image1=Example.jpg
+  | caption-image1=例
+  | 本部=例
+  | 公用語=例
+  | 加盟国=例
+  | 設立=例
+  | row5=例}}
+</pre>
+<templatedata>
+{"params":{"title1":{"suggested":true},"image1":{"suggested":true},"caption-image1":{"suggested":true},"\u672c\u90e8":{"suggested":true},"\u516c\u7528\u8a9e":{"suggested":true},"\u52a0\u76df\u56fd":{"suggested":true},"\u8a2d\u7acb":{"suggested":true},"row5":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

@@ -1,0 +1,63 @@
+;解説
+: このテンプレートは、左寄せ・右寄せされた要素、または両方に対する回り込みを解除します。回り込みの解除によって、このテンプレートに続く内容は、片側に寄せて配置された内容（目次、インフォボックス、画像や段落など）の反対側には回り込まなくなります。段落の内容が、先に使われた画像に関連する内容ではなくなった場合によく用いられています。
+: このテンプレートによって、<code><nowiki><div style="clear:<left/right/both>;"></div></nowiki></code> というコードを追加しています。（<code>clear</code>プロパティで指定される値は、テンプレートの引数によって変わります）。<br />このコードによって、片側に寄せて配置されたファイル（例：<code><nowiki>[[File:Image.png|right]]</nowiki></code>）や、その他のCSSの<code>float</code>プロパティを指定された要素に続く内容の表示位置が変更されることになります。
+
+;必要なファイル
+* [[テンプレート:-]]、[[テンプレート:Clr]] ([[ヘルプ:リダイレクト|リダイレクト]]ページ)
+
+;構文
+* 左右両方の回り込みを解除するには、{{t|Clear}} を入力します。
+* 左寄せされた要素に対する回り込みのみ解除するには、{{t|Clear|left}} を入力します。
+* 右寄せされた要素に対する回り込みのみ解除するには、{{t|Clear|right}} を入力します。
+
+{{t|-}} または {{t|Clr}} を、{{t|Clear}} の代わりに使うこともできます。
+
+;使用例 
+<pre style="display:table">
+
+=== 第1章 ===
+[[File:Example.jpg|200px|right|link=File:Example.jpg]]
+第1章の文章。
+
+=== 第2章 ===
+第2章の文章。
+{{Clear|right}}
+
+=== 第3章 ===
+第3章の文章。
+</pre>
+
+このコードは、次のようになります…
+
+----
+
+=== 第1章 ===
+[[File:Example.jpg|200px|right|link=File:Example.jpg]]
+第1章の文章。
+
+=== 第2章 ===
+第2章の文章。
+{{Clear|right}}
+
+=== 第3章 ===
+第3章の文章。
+
+----
+
+上の例では、ハスの花の写真が、第１章で右寄せで挿入され、第２章のタイトルと文章も写真の左側に回り込んで表示されています。一方、第２章の最後で{{t|Clear}}テンプレートが使われたため、第３章には写真は入り込んでいません。{{t|Clear}}テンプレートによって、要素の並び方を変えているのです。
+
+; 関連項目
+* [https://developer.mozilla.org/ja/docs/Web/CSS/clear MDN - CSSの<code>clear</code>プロパティ]
+* [https://developer.mozilla.org/ja/docs/Web/CSS/float MDN - CSSの<code>float</code>プロパティ]
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+__NOTOC__
+<includeonly>
+[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/デザイン]]
+<!--
+[[en:Template:Clear]]
+-->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

@@ -1,0 +1,19 @@
+'''テンプレート'''の基本カテゴリです。それぞれのテンプレートは、適切なサブカテゴリに入れるようにしてください。
+
+{{SITENAME}}の[[ヘルプ:テンプレート|テンプレート]]については、[[Project:テンプレート]]もご覧ください。
+
+{{DEFAULTSORT:てんふれえと}}
+<!--
+[[en:Category:Templates]]
+[[de:Kategorie:Vorlagen]]
+[[es:Categoría:Plantillas]]
+[[fi:Luokka:Mallineet]]
+[[it:Categoria:Template]]
+[[nl:Categorie:Sjablonen]]
+[[pl:Kategoria:Szablony]]
+[[pt:Categoria:Predefinições]]
+[[ru:Категория:Шаблоны для шаблонов]]
+[[vi:Thể loại:Templates]]
+[[zh:Category:模板]]
+-->
+[[カテゴリ:メンテナンス]]

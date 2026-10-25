@@ -1,0 +1,19 @@
+;解説
+:このテンプレートは指定したファイルのアップロードページへのリンクを表示させるのに使用します。
+
+;構文
+ <nowiki>{{uploadlink|ファイル}}</nowiki>
+ <nowiki>{{uploadlink|ファイル|リンクテキスト}}</nowiki>
+ <nowiki>{{uploadlink|ファイル|reupload=yes}}</nowiki>
+ <nowiki>{{uploadlink|ファイル|リンクテキスト|reupload=yes}}</nowiki>
+
+: <code>reupload</code>引数を <code>yes</code> に指定すると、既存のファイルを新しい版に置き換えるためのリンクを指定できます。この引数を使う場合は、同名のファイルが既に存在することを予め確認する必要があります。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/ナビゲーション]]<!--
+[[en:Template:Uploadlink]]
+ -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

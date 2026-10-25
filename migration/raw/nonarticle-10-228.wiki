@@ -1,0 +1,250 @@
+__NOTOC__
+[[wikipedia:ja:WP:CITE|記事の参考としたウェブサイトを明記する]]ために使用するテンプレートです。
+
+== 構文 ==
+; 必須値を記載した最小限の形式 (閲覧日付を含む)
+<tt><nowiki>{{Cite web |url= |title= |accessdate=</nowiki>{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}<nowiki> |format= |work= }}</nowiki></tt>
+
+;著作者の姓(last)、名(first)引数を指定 (閲覧日付を含む)
+<tt><nowiki>{{Cite web |url= |title= |accessdate=</nowiki>{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}<nowiki> |last= |first= |authorlink= |coauthors= |date= |year= |month= |format= |work= |publisher= |pages= |language= |archiveurl= |archivedate= |quote= }}</nowiki></tt>
+
+;著作者(author)引数を指定 (閲覧日付を含む)
+<tt><nowiki>{{Cite web |url= |title= |accessdate=</nowiki>{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}<nowiki> |author= |authorlink= |coauthors= |date= |year= |month= |format= |work= |publisher= |pages= |language= |archiveurl= |archivedate= |quote= }}</nowiki></tt>
+
+; 全ての引数 (非改行形式)
+: 不要な項目は削除してご利用ください。
+<tt><nowiki>{{Cite web |url= |title= |accessdate= |accessmonthday= |accessdaymonth = |accessyear= |author= |last= |first= |authorlink= |coauthors= |date= |year= |month= |format= |work= |publisher= |pages= |language= |archiveurl= |archivedate= |quote= }}</nowiki></tt>
+
+; 全ての引数 (改行形式)
+<pre>{{Cite web
+| url = 
+| title = 
+| accessdate = 
+| accessdaymonth = 
+| accessmonthday = 
+| accessyear = 
+| author = 
+| last = 
+| first = 
+| authorlink = 
+| coauthors = 
+| date = 
+| year = 
+| month = 
+| format = 
+| work = 
+| publisher = 
+| pages = 
+| language = 
+| archiveurl = 
+| archivedate = 
+| quote = 
+}}</pre>
+
+=== 必須の引数 ===
+* '''url''': 引用元のURL。
+* '''title''': 引用元の「URL」が指し示すページタイトル。
+:* '''accessdate''': 閲覧日付。[[Wikipedia:ja:ISO 8601|ISO 8601]]のYYYY-MM-DD形式で指定する。 例："accessdate = {{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}"。
+:* '''accessyear''' (閲覧年) と '''accessmonthday''' (閲覧月日) : 例："accessyear = 2005"、"accessmonthday = May 10" と指定すると、''2006年5月10日閲覧。''  と表示される。
+:* '''accessyear''' (閲覧年) と '''accessdaymonth''' (閲覧日・月) : 例："accessyear = 2005"、"accessmonthday = 10 May" と指定すると、''2006年5月10日閲覧。'' と表示される。
+
+=== 任意で指定する引数 ===
+* '''author''': 著作者。
+** '''last''' (著作者の姓) と '''first''' (著作者の名)…<code>last, first</code> と出力される。
+** '''authorlink''': 「著作者」に内部リンクを付ける場合に使用する。 '''author''' (著作者)、または '''last''' & '''first''' (著作者の姓と名) のどちらで指定した場合も使用できる。[[ヘルプ:リンク|内部リンク]]形式で指定する。
+** '''coauthors''': 共同著作者。
+* '''date''': 作品日付（発行年月日等）。なるべく[[Wikipedia:ja:ISO 8601|ISO 8601]]のYYYY-MM-DD形式 で指定する。<!-- 年月のみの場合は YYYY-MM形式、または YYYY年M月形式で指定する。年のみの場合は yearにのみ指定でもよい。　-->例：''2006-02-17''。
+** 別形式:  '''year''' (作品年) と '''month''' (作品月) : それぞれ発行年・発行月を指定する。発行日まで分かっている場合は、''date'' を使用する。「年」の漢字はつけない。
+* '''format''': ファイル形式。例：PDFの場合…PDF、Wordの場合…DOC、Excelの場合…XLS、PowerPointの場合…PPT、リッチテキストの場合…RTF。指定しないウェブサイトの場合は、HTML形式と見なされる。
+* '''work''': 大きな作品の一部の場合、作品名。
+* '''publisher''': サイト設置者・発行者・出版元。（ウェブサイトを設置している組織・団体・企業・官公庁など。）
+* '''pages''': ページ番号。単ページ、または複数ページを指定する。例：''pp. 5–7''。注：記事で参照したページの表記に用いる。総ページ数ではない。 参照先がPDF形式の場合、URL末尾に アンカー<code>#page=''number''</code> が追加されます。<code>#page=''number''</code> 例：
+*: <code><nowiki>pages = [http://www.example.org/file.pdf#page=123 p. 123]</nowiki></code>
+* '''language''': 発行された言語。(日本語の場合は指定しなくてよい。)
+* '''archiveurl''': アーカイブのURL。 (必ず '''archivedate''' と併用)
+* '''archivedate''': アーカイブ日付。 (必ず '''archiveurl''' と併用) [[Wikipedia:ja:ISO 8601|ISO 8601]]のYYYY-MM-DD形式 で指定する。例：''2006-02-17''。
+* '''doi''': ドキュメントの[[Wikipedia:ja:デジタルオブジェクト識別子|デジタルオブジェクト識別子]]。例：''<nowiki>10.1038/news070508-7</nowiki>''。
+* '''quote''': 参照元に関連する引用文。
+* ''' post-text''': 日付の後に表示する文字列を指定できる。(既定値は「閲覧。」)「post-text=」とのみ記入して値を代入しない場合には既定値が表示されない。
+
+== 使用例 ==
+;基本的な使用例
+* <nowiki>{{Cite web
+ | author=Doe, John
+ | title=My Favorite Things Part II
+ | publisher=Open Publishing
+ | date=2005-04-30
+ | work=Encyclopedia of Things
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+}}</nowiki><br/>→ <span style="background:white">{{cite web | author=Doe, John | title=My Favorite Things Part II | publisher=Open Publishing | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org | accessdate=2005-07-06 }}</span>
+
+* <nowiki>{{Cite web
+ | author=Doe, John
+ | title=My Favorite Things Part II
+ | date=2005-04-30
+ | work=Encyclopedia of Things
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+}}</nowiki><br/>→ <span style="background:white">{{cite web | author=Doe, John | title=My Favorite Things Part II | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org | accessdate=2005-07-06 }}</span>
+
+* <nowiki>{{Cite web
+ | author=Doe, John
+ | title=My Favorite Things Part II
+ | date=2005-04-30
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+}}</nowiki><br/>→ <span style="background:white">{{cite web | author=Doe, John | title=My Favorite Things Part II | date=2005-04-30 | url=http://www.example.org | accessdate=2005-07-06}}</span>
+
+* <nowiki>{{Cite web
+ | author=Doe, John
+ | title=My Favorite Things Part II
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+}}</nowiki><br/>→ <span style="background:white">{{cite web | author=Doe, John | title=My Favorite Things Part II | url=http://www.example.org | accessdate=2005-07-06}}</span>
+
+* <nowiki>{{Cite web
+ | title=My Favorite Things Part II
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+}}</nowiki><br/>→ <span style="background:white">{{cite web | title=My Favorite Things Part II | url=http://www.example.org | accessdate=2005-07-06}}</span>
+
+* <nowiki>{{Cite web
+ | url=http://www.nfl.com/fans/
+ | title=Digest of Rules
+ | publisher= National Football League
+ | accessdate=2005-07-06
+}}</nowiki><br>→ <span style="background:white">{{cite web | url=http://www.nfl.com/fans/
+ | title=Digest of Rules | publisher= National Football League | accessdate=2005-07-06 }}</span>
+
+;英語表記による閲覧日付の指定 (accessmonthday 及び accessyear を指定)
+* <nowiki>{{Cite web
+ | title=My Favorite Things Part II
+ | work=Encyclopedia of Things
+ | url=http://www.example.org/
+ | accessmonthday=July 6
+ | accessyear=2005
+}}</nowiki><br/> → <span style="background:white">{{cite web 
+ | title=My Favorite Things Part II
+ | work=Encyclopedia of Things
+ | url=http://www.example.org/
+ | accessmonthday=July 6
+ | accessyear=2005
+}}</span>
+
+;ファイル形式 (format) を指定
+* <nowiki>{{Cite web 
+| title=List of psychotropic substances under international control
+| publisher = International Narcotics Control Board
+| url=http://www.incb.org/pdf/e/list/green.pdf
+| format = PDF
+| accessdate=2005-07-06
+}}</nowiki><br/> → <span style="background:white">{{cite web 
+| title=List of psychotropic substances under international control
+| publisher = International Narcotics Control Board | url=http://www.incb.org/pdf/e/list/green.pdf
+| format = PDF | accessdate=2005-07-06}}</span>
+
+; 出典の言語 (language) を指定
+* <nowiki>{{Cite web
+ | author=Joliet, François
+ | title=Honnit soit qui mal y pense
+ | date=2005-04-30
+ | url=http://www.example.org/
+ | accessdate=2005-07-06
+ | language=フランス語
+}}</nowiki><br/>→ <span style="background:white">{{cite web | author=Joliet, François | title=Honnit soit qui mal y pense | date=2005-04-30 | url=http://www.example.org | accessdate=2005-07-06 | language=フランス語}}</span>
+
+; 共同著作者 (coauthors) を指定
+* <nowiki>{{Cite web | first=John | last=Doe | coauthors=Peter Smith, Jim Smythe | title=My Favorite Things Part II | publisher=Open Publishing | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2006-05-16 
+}}</nowiki><br/>→ <span style="background:white">{{cite web | first=John | last=Doe | coauthors=Peter Smith, Jim Smythe | title=My Favorite Things Part II | publisher=Open Publishing | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2006-05-16 }}</span>
+
+; 著作者 (author) の指定なし
+* <nowiki>{{Cite web | title=My Favorite Things Part II | publisher=Open Publishing | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2006-05-16 
+}}</nowiki><br/>→ <span style="background:white">{{cite web | title=My Favorite Things Part II | publisher=Open Publishing | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2006-05-16 }}</span>
+
+;著作者 (author) と サイト設置者等 (publisher) の指定なし
+* <nowiki>{{Cite web | title=My Favorite Things Part II | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2005-07-06
+}}</nowiki><br />→ <span style="background:white">{{cite web | title=My Favorite Things Part II | date=2005-04-30 | work=Encyclopedia of Things | url=http://www.example.org/ | accessdate=2005-07-06 }}</span>
+
+* <nowiki>{{Cite web | title=My Favorite Things Part II | date=2005-04-30 | url=http://www.example.org/ | accessdate=2005-07-06 }}</nowiki><br/>→ <span style="background:white">{{cite web | title=My Favorite Things Part II | date=2005-04-30 | url=http://www.example.org/ | accessdate=2005-07-06 }}</span>
+
+* <nowiki>{{Cite web 
+| title=List of psychotropic substances under international control
+| date=2005-04-30
+| url=http://www.incb.org/pdf/e/list/green.pdf
+| format = PDF
+| accessdate=2005-07-06
+| language=ギリシャ語 
+}}</nowiki><br/> → <span style="background:white">{{cite web 
+| title=List of psychotropic substances under international control | date=2005-04-30
+| url=http://www.incb.org/pdf/e/list/green.pdf | format = PDF | accessdate=2005-07-06
+| language=ギリシャ語 }}</span>
+
+; アーカイブURL (archiveurl) と アーカイブ日付 (archivedate) を指定…引用元が閲覧できなくなっているが、アーカイブサイトにて参照可能な場合
+* <nowiki>{{Cite web
+| title=List of psychotropic substances under international control
+| date=2005-04-30
+| url=http://www.incb.org/pdf/e/list/green.pdf
+| format = PDF
+| accessdate=2005-07-06
+| archiveurl=http://www.archive.org/2005-09-11/www.incb.org/pdf/e/list/green.pdf
+| archivedate=2005-09-11
+}}</nowiki><br/> → <span style="background:white">{{cite web
+| title=List of psychotropic substances under international control
+| date=2005-04-30
+| url=http://www.incb.org/pdf/e/list/green.pdf
+| format = PDF
+| accessdate=2005-07-06
+| archiveurl=http://www.archive.org/2005-09-11/www.incb.org/pdf/e/list/green.pdf
+| archivedate=2005-09-11 }}</span>
+
+* <nowiki>
+{{Cite web
+|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
+|title=Interview with Maggie Downs
+|date=2006-03-31
+|publisher=The Desert Sun
+|archiveurl=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
+|archivedate=2006-04-26
+}}</nowiki><br/> → <span style="background:white">{{cite web
+|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
+|title=Interview with Maggie Downs
+|date=2006-03-31
+|publisher=The Desert Sun
+|archiveurl=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
+|archivedate=2006-04-26}}</span>
+
+; 引用文 (quote) を指定
+* <nowiki>{{Cite web
+ | title = My Favorite Things Part II
+ | work = Encyclopedia of Things
+ | url = http://www.example.org/
+ | accessdate = 2005-07-06
+ | quote = Lorem ipsum dolor.
+}}</nowiki><br/>→ <span style="background:white">{{cite web
+ | title = My Favorite Things Part II
+ | work = Encyclopedia of Things
+ | url = http://www.example.org/
+ | accessdate = 2005-07-06
+ | quote = Lorem ipsum dolor.
+}}</span>
+
+; 引数なし (エラー)
+* <nowiki>{{Cite web}}</nowiki><br/>→ <span style="background:white">{{cite web}}</span>
+
+==関連項目==
+* [[wikipedia:Template:Cite web]] (英語版) 及び [[wikipedia:ja:Template:Cite web]] … 元になったテンプレート
+* [[w:c:starwars:Template:Cite web]] … 元になったテンプレート
+* [[wikipedia:ja:Wikipedia:出典テンプレート|Wikipedia:出典テンプレート]] … Wikipediaの出典テンプレートについて
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/‎引用または参照]]
+[[カテゴリ:テンプレート]]
+<!-- 
+[[en:Template:Cite web]]
+[[zh:Template:Cite web]]
+ -->
+</includeonly>
+<noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

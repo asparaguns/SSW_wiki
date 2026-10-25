@@ -1,0 +1,55 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image1">
+    <caption source="caption1"/>
+  </image>
+  <data source="全名">
+    <label>全名</label>
+  </data>
+  <data source="肩書き">
+    <label>肩書き</label>
+  </data>
+  <data source="国家">
+    <label>国家</label>
+  </data>
+  <data source="出自">
+    <label>出自</label>
+  </data>
+  <data source="民族">
+    <label>民族</label>
+  </data>
+  <data source="イデオロギー">
+    <label>イデオロギー</label>
+  </data>
+</infobox>
+<noinclude>
+使用例:
+<pre>
+{{人物
+
+  | title1=例
+
+  | image1=例
+
+  | caption1=例
+
+  | 全名=例
+
+  | 肩書き=例
+
+  | 国家=例
+
+  | 出自=例
+
+  | 民族=例
+
+  | イデオロギー=例
+
+}}
+</pre>
+<templatedata>
+{"params":{"title1":{"suggested":true},"image1":{"suggested":true},"caption1":{"suggested":true},"\u5168\u540d":{"suggested":true},"\u80a9\u66f8\u304d":{"suggested":true},"\u56fd\u5bb6":{"suggested":true},"\u51fa\u81ea":{"suggested":true},"\u6c11\u65cf":{"suggested":true},"\u30a4\u30c7\u30aa\u30ed\u30ae\u30fc":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

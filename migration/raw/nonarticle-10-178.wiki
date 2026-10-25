@@ -1,0 +1,17 @@
+;解説
+:このテンプレートはファイルがLGPLライセンスであることを示すために使用します。
+
+;必要なファイル
+* [[テンプレート:LicenseBox]]
+* [[:カテゴリ:LGPLファイル]]
+
+;構文
+:画像情報ページで <code>{{t|LGPL}}</code> と入力してください。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+<!-- [[en:Template:LGPL]] -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

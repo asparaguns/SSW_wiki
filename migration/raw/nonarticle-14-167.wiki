@@ -1,0 +1,8 @@
+{{SITENAME}} にある'''動画'''。
+
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:とうか}}
+[[カテゴリ:メディア]]
+<!-- 
+[[en:Category:Videos]]
+-->

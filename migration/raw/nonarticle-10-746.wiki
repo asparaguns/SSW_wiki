@@ -1,0 +1,196 @@
+<infobox>
+  <title source="艦級"/>
+  <image source="image1">
+    <caption source="caption-image1"/>
+  </image>
+  <group>
+    <header source="基本情報">基本情報</header>
+    <data source="造船所">
+      <label>造船所</label>
+    </data>
+    <data source="運用者">
+      <label>運用者</label>
+    </data>
+    <data source="艦種">
+      <label>艦種</label>
+    </data>
+    <data source="艦級">
+      <label>艦級</label>
+    </data>
+    <data source="前級">
+      <label>前級</label>
+    </data>
+    <data source="次級">
+      <label>次級</label>
+    </data>
+  </group>
+  <group>
+    <header source="艦歴">艦歴</header>
+    <data source="計画">
+      <label>計画</label>
+    </data>
+    <data source="起工">
+      <label>起工</label>
+    </data>
+    <data source="進水">
+      <label>進水</label>
+    </data>
+    <data source="就役">
+      <label>就役</label>
+    </data>
+    <data source="除籍">
+      <label>除籍</label>
+    </data>
+    <data source="その後">
+      <label>その後</label>
+    </data>
+  </group>
+  <group>
+    <header source="要目">要目</header>
+    <data source="排水量">
+      <label>排水量</label>
+    </data>
+    <data source="全長">
+      <label>全長</label>
+    </data>
+    <data source="全幅">
+      <label>全幅</label>
+    </data>
+    <data source="喫水">
+      <label>喫水</label>
+    </data>
+    <data source="機関">
+      <label>機関</label>
+    </data>
+    <data source="推進軸数">
+      <label>推進軸数</label>
+    </data>
+    <data source="出力">
+      <label>出力</label>
+    </data>
+    <data source="速力">
+      <label>速力</label>
+    </data>
+    <data source="燃料">
+      <label>燃料</label>
+    </data>
+    <data source="航続距離">
+      <label>航続距離</label>
+    </data>
+    <data source="乗員">
+      <label>乗員</label>
+    </data>
+    <data source="兵装">
+      <label>兵装</label>
+    </data>
+    <data source="装甲">
+      <label>装甲</label>
+    </data>
+    <data source="特殊装備">
+      <label>特殊装備</label>
+    </data>
+    <data source="搭載艇">
+      <label>搭載艇</label>
+    </data>
+    <data source="搭載機">
+      <label>搭載機</label>
+    </data>
+    <data source="電子装備">
+      <label>電子装備</label>
+    </data>
+    <data source="レーダー">
+      <label>レーダー</label>
+    </data>
+    <data source="ソーナー">
+      <label>ソーナー</label>
+    </data>
+    <data source="その他">
+      <label>その他</label>
+    </data>
+  </group>
+</infobox>
+<noinclude>
+使用例:
+<pre>
+{{艦艇
+
+  | 艦級=例
+
+  | image1=例
+
+  | caption-image1=例
+
+  | 基本情報=例
+
+  | 造船所=例
+
+  | 運用者=例
+
+  | 艦種=例
+
+  | 前級=例
+
+  | 次級=例
+
+  | 艦歴=例
+
+  | 計画=例
+
+  | 起工=例
+
+  | 進水=例
+
+  | 就役=例
+
+  | 除籍=例
+
+  | その後=例
+
+  | 要目=例
+
+  | 排水量=例
+
+  | 全長=例
+
+  | 全幅=例
+
+  | 喫水=例
+
+  | 機関=例
+
+  | 推進軸数=例
+
+  | 出力=例
+
+  | 速力=例
+
+  | 燃料=例
+
+  | 航続距離=例
+
+  | 乗員=例
+
+  | 兵装=例
+
+  | 装甲=例
+
+  | 特殊装備=例
+
+  | 搭載艇=例
+
+  | 搭載機=例
+
+  | 電子装備=例
+
+  | レーダー=例
+
+  | ソーナー=例
+
+  | その他=例
+
+}}
+</pre>
+<templatedata>
+{"params":{"\u8266\u7d1a":{"suggested":true},"image1":{"suggested":true},"caption-image1":{"suggested":true},"\u57fa\u672c\u60c5\u5831":{"suggested":true},"\u9020\u8239\u6240":{"suggested":true},"\u904b\u7528\u8005":{"suggested":true},"\u8266\u7a2e":{"suggested":true},"\u524d\u7d1a":{"suggested":true},"\u6b21\u7d1a":{"suggested":true},"\u8266\u6b74":{"suggested":true},"\u8a08\u753b":{"suggested":true},"\u8d77\u5de5":{"suggested":true},"\u9032\u6c34":{"suggested":true},"\u5c31\u5f79":{"suggested":true},"\u9664\u7c4d":{"suggested":true},"\u305d\u306e\u5f8c":{"suggested":true},"\u8981\u76ee":{"suggested":true},"\u6392\u6c34\u91cf":{"suggested":true},"\u5168\u9577":{"suggested":true},"\u5168\u5e45":{"suggested":true},"\u55ab\u6c34":{"suggested":true},"\u6a5f\u95a2":{"suggested":true},"\u63a8\u9032\u8ef8\u6570":{"suggested":true},"\u51fa\u529b":{"suggested":true},"\u901f\u529b":{"suggested":true},"\u71c3\u6599":{"suggested":true},"\u822a\u7d9a\u8ddd\u96e2":{"suggested":true},"\u4e57\u54e1":{"suggested":true},"\u5175\u88c5":{"suggested":true},"\u88c5\u7532":{"suggested":true},"\u7279\u6b8a\u88c5\u5099":{"suggested":true},"\u642d\u8f09\u8247":{"suggested":true},"\u642d\u8f09\u6a5f":{"suggested":true},"\u96fb\u5b50\u88c5\u5099":{"suggested":true},"\u30ec\u30fc\u30c0\u30fc":{"suggested":true},"\u30bd\u30fc\u30ca\u30fc":{"suggested":true},"\u305d\u306e\u4ed6":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

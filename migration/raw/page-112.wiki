@@ -1,0 +1,14 @@
+== Wikiテーマ用画像 ==
+このページでは、[[ヘルプ:テーマデザイナー|Wikiのテーマ]]として使われる画像が[[Special:UnusedImages|特別:使われていないファイル]]に表示されないようにしています。
+{{#tag:gallery
+|{{#ifexist:File:Wiki-wordmark.png|Wiki-wordmark.png {{!}} [[:File:Wiki-wordmark.png]]|}}
+{{#ifexist:File:Wiki.png|Wiki.png {{!}} [[:File:Wiki.png]]|}}
+{{#ifexist:File:Wiki-background|Wiki-background {{!}} [[:File:Wiki-background]]|}}
+{{#ifexist:File:Community-header-background|Community-header-background {{!}} [[:File:Community-header-background]]}}
+{{#ifexist:File:Community-Page-Header.jpg|Community-Page-Header.jpg {{!}} [[:File:Community-Page-Header.jpg]]}}
+{{#ifexist:File:Favicon.ico|Favicon.ico {{!}} [[:File:Favicon.ico]]|}}
+|hideaddbutton="true"
+}}
+
+[[カテゴリ:{{SITENAME}}]]
+{{DEFAULTSORT:めいんへえし/てえま}}

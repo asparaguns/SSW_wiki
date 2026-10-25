@@ -1,0 +1,7 @@
+
+[[カテゴリ:テンプレート|Navbox]]
+[[カテゴリ:テンプレートの種類|Navbox]]
+<!--
+[[en:Category:Templates/Navbox]]
+-->
+{{DEFAULTSORT:てんふれえと/Navbox}}

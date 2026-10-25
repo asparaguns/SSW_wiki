@@ -1,0 +1,1 @@
+<div class="redirectMsg"><ul class="redirectText" id="softredirect"><li>[[:カテゴリ:スタブ]]</li></ul><span style="font-size:85%; padding-left:52px;">このページは[[ヘルプ:ソフトリダイレクト|ソフトリダイレクト]]です。</span></div>

@@ -1,0 +1,2 @@
+<includeonly>&nbsp;&bull;&nbsp;</includeonly><noinclude>
+{{documentation}}</noinclude>

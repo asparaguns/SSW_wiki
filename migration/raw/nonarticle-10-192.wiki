@@ -1,0 +1,2 @@
+<includeonly><span class="plainlinks">[{{fullurl:Special:Upload|wpDestFile={{urlencode:{{{1|}}}}}{{#ifeq:{{lc:{{{reupload|}}}}}|yes|&wpForReUpload=1|}}}} {{#if:{{{2|}}}|{{{2}}}|File:{{{1}}} }}]</span></includeonly><noinclude>
+{{documentation}}</noinclude>

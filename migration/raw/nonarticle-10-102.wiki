@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルはその撮影者または著作者がアップロードしたものです。}}
+{{ {{{1|CC-BY-SA}}} }}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:著作者がアップロードしたファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

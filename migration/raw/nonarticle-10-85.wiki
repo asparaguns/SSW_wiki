@@ -1,0 +1,17 @@
+;解説
+:このテンプレートは画像やファイルを [http://creativecommons.org/licenses/by-sa/3.0/deed.ja CC-BY-SA-3.0] ライセンスとしてマークするのに利用します。
+
+;必要なファイル
+* [[テンプレート:MessageBox]]
+
+;構文
+:画像情報ページで <code>{{t|cc-by-sa-3.0|帰属の詳細}}</code> と入力してください。
+:「帰属の詳細」をそのソースについての情報に書き換えてください。
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+<!-- [[en:Template:Cc-by-sa-3.0]] -->
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

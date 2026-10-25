@@ -1,0 +1,58 @@
+<infobox theme="country">
+	<title	source = "title"><default>{{PAGENAME}}</default></title>
+	<image	source = "国旗"	class = "infobox-national-flag"></image>
+	<image	source = "国章"	class = "infobox-national-emblem"></image>
+	<group show="incomplete">
+    	<header>基礎情報</header>
+		<data source="正式名称"><label>'''正式名称'''</label></data>
+		<data source="略称"><label>'''略称'''</label></data>
+		<data source="タグ"><label>'''タグ'''</label></data>
+		<data source="国の標語"><label>'''国の標語'''</label></data>
+		<data source="国歌"><label>'''国歌'''</label></data>
+		<data source="公用語"><label>'''公用語'''</label></data>
+		<data source="首都"><label>'''首都'''</label></data>
+		<data source="国家元首"><label>'''国家元首'''</label></data>
+		<data source="政府首班"><label>'''政府首班'''</label></data>
+		<data source="政府思想"><label>'''政府思想'''</label></data>
+		<data source="通貨"><label>'''通貨'''</label></data>
+		<data source="成立"><label>'''成立'''</label></data>
+		<data source="工業力"><label>'''工業力'''</label></data>
+		<data source="人口"><label>'''人口'''</label></data>
+    	<header>勢力圏</header>
+		<data source="地位"><label>'''地位'''</label></data>
+		<data source="陣営"><label>'''陣営'''</label></data>
+		<data source="経済圏"><label>'''経済圏'''</label></data>
+		<data source="同盟国"><label>'''同盟国'''</label></data>
+		<data source="属国"><label>'''属国'''</label></data>
+		<data source="属領"><label>'''属領'''</label></data>
+		<data source="占領地"><label>'''占領地'''</label></data>
+	</group>
+</infobox>
+<noinclude>
+{{国家
+|国旗=FLAG_JAP.svg
+|国章=EMBLEM_JAP.svg
+|正式名称=大日本帝国
+|略称=日本
+|タグ=JAP
+|国の標語=五箇条の御誓文
+|国歌=君が代
+|公用語=日本語
+|首都=東京
+|国家元首=[[昭和天皇|今上天皇]]
+|政府首班=[[芳沢謙吉]]
+|政府思想=[[保守民主主義]]<br>[[権威民主主義]]との連立
+|通貨=日本円
+|成立=B.C.660/02/11
+|工業力=182
+|人口=3.72M
+|陣営=[[大東亜共栄圏]] 盟主
+|経済圏=[[大東亜共栄圏]] 盟主
+|地位=主要国
+|同盟国=[[ファイル:FLAG_FAE.svg|20px|link=極東国]] [[極東国]]<br>[[ファイル:FLAG_SIA.svg|20px|link=タイ王国]] [[タイ王国]]<br>[[ファイル:FLAG_INS.svg|20px|link=インドネシア連邦]] [[インドネシア連邦]]
+|属国='''帝国保護国'''<br>[[ファイル:FLAG_MAN.svg|20px|link=満州帝国]] [[満州帝国]]<br>[[ファイル:FLAG_MEN_military_government.svg|20px|link=蒙疆軍政府]] [[蒙疆軍政府]]<br>[[ファイル:FLAG_BRM.svg|20px|link=ビルマ国]] [[ビルマ国]]<br>[[ファイル:FLAG_MAL.svg|20px|link=マラヤ連合]] [[マラヤ連合]]<br>[[ファイル:FLAG_VIN.svg|20px|link=ベトナム帝国]] [[ベトナム帝国]]<br>[[ファイル:FLAG_CAM.svg|20px|link=カンボジア王国]] [[カンボジア王国]]<br>[[ファイル:FLAG_LAO.svg|20px|link=ラオス王国]] [[ラオス王国]]
+|属領='''外地'''<br>[[ファイル:FLAG_JAP.svg|20px]] 台湾<br>[[ファイル:FLAG_JAP.svg|20px]] 朝鮮<br>[[ファイル:FLAG_JAP.svg|20px|link=日本領昭南地域]] [[日本領昭南地域|昭南地域]]<br>'''租借地'''<br>[[ファイル:FLAG_JAP.svg|20px]] 関東州<br>'''C式委任統治領'''<br>[[ファイル:FLAG_JAP.svg|20px]] 南洋諸島
+|占領地=[[ファイル:FLAG_KAM_JAP.svg|20px|link=勘察加占領軍地域]] [[勘察加占領軍地域]]<br>[[ファイル:FLAG_NGU_JAPandINS.svg|20px|link=ニューギニア共同軍政区]] [[ニューギニア共同軍政区]]
+}}
+[[Category:Infobox templates]]
+</noinclude>

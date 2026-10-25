@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="wiki-article">
+  <div class="article-kicker"><a href="{{ site.Home.RelPermalink }}">SSW Wiki</a><span aria-hidden="true">›</span>記事</div>
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Params.infobox }}
+  <aside class="infobox infobox-{{ .kind }}" aria-label="基本情報">
+    <div class="infobox-title">{{ $.Title }}</div>
+    {{ if .images }}
+    <div class="infobox-images">
+      {{ range .images }}
+      {{ $imgpath := printf "images/%s" .filename }}
+      <figure class="infobox-figure">
+        {{ if fileExists (printf "static/%s" $imgpath) }}
+        <img class="infobox-image" src="{{ $imgpath | relURL }}" alt="{{ .label }}" loading="lazy">
+        {{ else }}
+        <span class="infobox-missing"><a href="https://ssw-mod.fandom.com/ja/wiki/ファイル:{{ .filename }}" title="旧Wikiのファイルページ">{{ .label }}：画像未移行</a></span>
+        {{ end }}
+        <figcaption>{{ .label }}</figcaption>
+      </figure>
+      {{ end }}
+    </div>
+    {{ end }}
+    <table><tbody>
+    {{ range .fields }}
+      {{ if and (eq $.Params.infobox.template "国家") (eq .label "正式名称") }}<tr class="infobox-section"><th colspan="2">基礎情報</th></tr>{{ end }}
+      {{ if and (eq $.Params.infobox.template "国家") (eq .label "地位") }}<tr class="infobox-section"><th colspan="2">勢力圏</th></tr>{{ end }}
+      {{ if and (eq $.Params.infobox.template "艦艇") (eq .label "排水量") }}<tr class="infobox-section"><th colspan="2">要目</th></tr>{{ end }}
+      <tr><th scope="row">{{ .label }}</th><td>{{ .value }}</td></tr>
+    {{ end }}
+    </tbody></table>
+  </aside>
+  {{ end }}
+  <div class="article-body">{{ .Content }}</div>
+  {{ with .GetTerms "categories" }}
+    <section class="category-box"><strong>カテゴリ</strong>
+      {{ range . }}<a class="category-tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </section>
+  {{ end }}
+  {{ with .Params.source_url }}
+    <section class="attribution"><strong>原記事と帰属表示：</strong> <a href="{{ . }}">旧Fandom版の「{{ $.Title }}」</a>から記事を移植しました。元の著作者・編集履歴とライセンスは原サイトをご確認ください。画像の著作権は別途確認が必要です。</section>
+  {{ end }}
+</article>
+{{ end }}

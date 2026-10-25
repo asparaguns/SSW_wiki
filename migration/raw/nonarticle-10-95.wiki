@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=この著作物は[https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048#269 日本の著作権法第３２条]に基づく引用です。全ての権利は引用元に帰属します。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:自由利用できないファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,9 @@
+異常な引数のある[[Template:Hatnote|Hatnoteテンプレート]]。
+
+__HIDDENCAT__
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:いしようなひきすうのあるHatnoteてんふれえと}}
+[[カテゴリ:メンテナンス]]
+<!-- 
+[[en:Category:Hatnote templates using unusual parameters]]
+-->

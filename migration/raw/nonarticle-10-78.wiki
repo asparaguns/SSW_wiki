@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=このファイルは[http://creativecommons.org/licenses/by-sa/3.0/ クリエイティブ・コモンズ 表示 - 継承ライセンス]の元で提供されています。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>[[カテゴリ:CC-BY-SAファイル]]
+</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

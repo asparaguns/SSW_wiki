@@ -1,0 +1,306 @@
+; 解説
+: {{T|MessageBox}} (メッセージボックス、Mbox) は、お知らせ用のテンプレートを作成するためのテンプレート（メタテンプレート）です。
+
+: クラス、インラインスタイル、および特定のCSSセレクタを指定することで、お好みに合わせて変更することができます。画像や、左側の線、右側に配置できる(ショートカットなどの) テキストを指定・変更することもできます。
+
+: このテンプレートは[[Help:Lua|Lua言語]]でプログラムされています。詳細は[[w:c:dev:Global_Lua_Modules/Mbox|グローバルLuaモジュールのページ (英語)]]からご覧いただけます。<span id="簡易版">初期デザインは[[w:c:dev:mediawiki:Global Lua Modules/Mbox.css|モジュールの基本CSS]]を元に変更を加えた簡易版です。</span>簡易版を使わず、このモジュールのデザイン等を変更する場合は、[[Module:Mbox]]の該当する部分を削除してください。
+
+;必要なファイル
+* [[モジュール:Mbox]]
+* [[モジュール:Mbox/data]]
+* [[テンプレート:Mbox]] ([[ヘルプ:リダイレクト|リダイレクト]]ページ)
+
+; 引数 (パラメーター)
+: 引数を使った例については[[#使用例]]をご覧ください。
+{| class="article-table" style="width: 100%"
+! 引数名
+! 説明
+! 必須/任意
+! 初期値
+|-
+| <code>class</code>
+| <code>.mbox</code>ルート要素 (ボックス全体) にクラスを追加します。
+| 任意
+| —
+|-
+| <code>bordercolor</code>
+| 左端のラインの色を指定します。
+| 任意
+| CSS準拠
+|-
+| <code>type</code>
+| CSS変数<ref>[https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties MDN - CSS カスタムプロパティ (変数) の使用]</ref>として定義されたmboxのtypeを呼び出します。左端のラインの色を指定できます。[[#typeの利用]]もご覧ください。
+| 任意
+| —
+|-
+| <code>bgcolor</code>
+| ボックスの背景色を指定します。
+| 任意
+| CSS準拠
+|-
+| <code>style</code>
+| <code>.mbox</code>ルート要素にインラインCSSを追加します。
+| 任意
+| —
+|-
+| <code>image</code>
+| テキストの左側に表示する画像を指定します。
+| 任意
+| —
+|-
+| <code>imagewidth</code>
+| 画像の幅を指定します (高さは自動調整されます)。
+| 任意
+| <code>60px</code>
+|-
+| <code>imagelink</code>
+| 画像のリンク先を指定します (関連するメンテナンス用カテゴリへのリンクなどに使用できます)。指定がない場合は、どこにもリンクされません。
+| 任意
+| —
+|-
+| <code>header</code>
+| 見出し (上部の太字テキスト) を指定します。概要を端的に示したい場合に使用します。mboxを折り畳み可能とした場合も常に表示されます。
+| 任意
+| —
+|-
+| <code>text</code>
+| 見出しの下に表示されるメインテキストを指定します。説明や詳細を示すのに使われます。折り畳み可能なmboxでは、折り畳んだときは隠されます。
+| 任意
+| —
+|-
+| <code>comment</code>
+| メインテキストの下に表示されるテキスト (下部の小さい文字のテキスト) を指定します。関連するリンクや留意点などを示すのに使われます。折り畳み可能なmboxを折り畳んだときは非表示になります。
+| 任意
+| —
+|-
+| <code>aside</code>
+| 右側に表示されるテキスト等を指定します。この要素は、淡い灰色の縦線で左側の要素と分けて表示されます。主に、メインテキストで言及されているページへのショートカットを示すのに使われます (コミュニティの方針をまとめたページなど)。折り畳み可能なmboxを折り畳んだときは非表示になります。
+| 任意
+| —
+|-
+| <code>id</code>
+| mboxの名前を指定します (例: "Template:Cleanup" に <code><nowiki>|id=cleanup</nowiki></code> を加える)。 初期値では、一度「閉じる」ボタンを押すとページの全てのmboxが折り畳まれます。しかし、この値を変更してmboxに名前を付けることで、その調整ができるようになります。
+| 任意
+| —
+|-
+| <code>collapsed</code>
+| 初期値では、mboxは折り畳まれず、全ての内容が表示されます。この値を変更することで、mboxが折り畳まれた状態で表示されるように設定できます。 (例: <code><nowiki>|collapsed=true</nowiki></code> を加えると、mboxは折り畳まれた状態で表示されます。)
+| 任意
+| —
+|}
+
+; デザイン
+: mboxのデザインを変更する場合は、下のCSSコードのひな型をご利用ください。
+
+<syntaxhighlight lang="css" class="mw-collapsible mw-collapsed">
+.mbox {
+    /* the background of the entire box */;
+    background-color: ;
+
+    /* the border color of the entire box */
+    border-color: ;
+
+    /* the border thickness of the entire box */
+    border-width: ;
+
+    /* the default thick left border color; note this can be changed from within the template implementations using the "color" parameter */
+    border-left-color: ;
+
+    /* the rounded-ness of the corners */;
+    border-radius: ;
+
+    /* the baseline font-size of the mbox */
+    font-size: ;
+}
+
+.mbox__content {
+    /* the padding inside the mbox */
+    padding: ;
+}
+
+.mbox__content__image {
+    /* the minimum width of the mbox's image (if bigger, use the "imagewidth" parameter in the template) */
+    width: ;
+
+    /* the spacing to the left of the text (i.e., the right of the image) */
+    padding-right: ;
+}
+
+.mbox__content__text__comment {
+    /* the size of the text in the "comment" parameter */
+    font-size: ;
+}
+
+.mbox__content__aside {
+    /* any particular modifications to the "aside" area can go here */
+
+    /* the maximum width of the aside area */
+    width: ;
+}
+
+.mbox__close {
+    /* the appearance of the close symbol here */
+}
+
+.mbox__close:after {
+    /* overwrite "content" here if you do not wish for the close symbol to be × */
+    content: '';
+}
+
+.mw-collapsed + .mbox__close {
+   /* modifications to the close symbol when the box is closed */
+}
+
+.mw-collapsed + .mbox__close:after {
+   /* overwrite "content" here if you do not wish for the close symbol to be + when the box is closed */
+   content: '';
+}
+</syntaxhighlight>
+
+;: 技術情報
+* テンプレートの <code>style</code> 引数から、インラインスタイルで<code>.mbox</code> ルート要素にCSSを追加することもできます。
+
+; 使用例
+;: <span id="基本のMbox">基本のメッセージボックス</span>
+<pre>
+{{MessageBox
+|header      = 見出し
+|text        = メインテキスト
+|id          = test1
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox|main
+|header      = 見出し
+|text        = メインテキスト
+|id          = test1
+}}
+
+;: <span id="typeの利用">typeの利用</span>
+: typeを利用する場合は、以下のようにCSS変数を追記してください。
+<syntaxhighlight lang="css">
+:root {
+    --type-important: rgba(200, 0, 0, 0.8);
+    --type-moderate: rgba(233, 124, 47, 0.8);
+    --type-minor: rgba(241, 197, 37, 0.8);
+}
+</syntaxhighlight>
+
+: 上の例を追加した場合：
+
+<pre>
+{{MessageBox
+|header = 見出し
+|type   = important
+|text   = メインテキスト
+|id     = test2
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox|main
+|header = 見出し
+|type   = important
+|text   = メインテキスト
+|id     = test2
+}}
+
+: ご覧のWikiのCSS設定によっては、[[#基本のMbox|１つ目の例]]と同様に表示されることがあります。
+
+;: 画像付きボックス
+<pre>
+{{MessageBox
+|header     = 見出し
+|text       = メインテキスト
+|image      = Wiki.png
+|imagelink  = :File:Wiki.png
+|imagewidth = 50px
+|id         = test3
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox|main
+|header     = 見出し
+|text       = メインテキスト
+|image      = Wiki.png
+|imagelink  = :File:Wiki.png
+|imagewidth = 50px
+|id         = test3
+}}
+
+;: 脇テキスト付き
+<pre>
+{{MessageBox
+|header = 見出し
+|type   = important
+|text   = メインテキスト
+|aside  = 脇テキスト
+|id     = test4
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox|main
+|header = 見出し
+|type   = important
+|text   = メインテキスト
+|aside  = 脇テキスト
+|id     = test4
+}}
+
+;: スタンダード/初期値スタイル
+<pre>
+{{MessageBox
+|header  = 見出し
+|text    = メインテキスト
+|comment = コメント
+|image   = Wiki.png
+|aside   = 脇テキスト
+|id      = standard
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox
+|main
+|header=見出し 
+|text=メインテキスト
+|comment=コメント
+|image=Wiki.png 
+|aside=脇テキスト
+|id=standard
+}}
+
+;: <span id="ライン色変更例">ラインの色を指定した例</span>
+: 簡易版では色が変わりません。デザイン変更の際は[[#簡易版|簡易版について]]を確認してください。
+<pre>
+{{MessageBox
+|header      = 見出し
+|text        = メインテキスト
+|bordercolor = red
+|id          = test1
+}}</pre>
+
+: は次のようになります…
+
+{{#invoke:Mbox|main
+|header      = 見出し
+|text        = メインテキスト
+|bordercolor = red
+|id          = test1
+}}
+
+;関連項目
+* [[w:c:ja.templates:Template:Ambox]] - ウィキテキストによるメッセージボックステンプレート
+
+;脚注
+<references />
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/通知‎]]</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]</noinclude>

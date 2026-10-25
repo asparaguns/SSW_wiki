@@ -1,0 +1,22 @@
+<onlyinclude><infobox>
+	<title source="タイトル"><default>{{PAGENAME}}</default></title>
+	<image source="画像">
+	<caption source="画像解説"></caption>
+	</image>
+	<header>主要情報</header>
+	<data source="項目1"><label>項目1</label><default>不明</default></data>
+	<data source="項目2"><label>項目2</label><default>不明</default></data>
+	<data source="項目3"><label>項目3</label><default>不明</default></data>
+	<group>
+	<header>その他の情報</header>
+	<data source="項目4"><label>項目4</label></data>
+	<data source="項目5"><label>項目5</label></data>
+	<data source="項目6"><label>項目6</label></data>
+	</group>
+	<group layout="horizontal">
+		<header>順序</header>
+		<data source="前回"><label>前回</label></data>
+		<data source="次回"><label>次回</label></data>
+	</group>
+</infobox></onlyinclude><noinclude><br style="clear:both;"/>
+{{documentation}}</noinclude>

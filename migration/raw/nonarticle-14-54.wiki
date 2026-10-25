@@ -1,0 +1,9 @@
+Lua スクリプトのエラーがあるページ。
+
+__HIDDENCAT__
+__EXPECTUNUSEDCATEGORY__
+{{DEFAULTSORT:すくりふとえらあかあるへえし}}
+[[カテゴリ:メンテナンス]]
+<!-- 
+[[en:Category:Pages with script errors]]
+-->

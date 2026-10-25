@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/wiki.css" | relURL }}">
+  <script defer src="{{ "js/wiki-search.js" | relURL }}"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ site.Home.RelPermalink }}"><span class="brand-emblem">SSW</span><span class="brand-text">THE SUN SHINING ON THE WORLD <span>WIKI</span></span></a>
+    <nav class="top-links" aria-label="主なナビゲーション"><a href="{{ site.Home.RelPermalink }}">ホーム</a><a href="{{ "wiki/" | relURL }}">記事一覧</a><a href="{{ "categories/" | relURL }}">カテゴリ</a></nav>
+  </div>
+</header>
+<div class="site-grid">
+  <aside class="sidebar" aria-label="サイドバー">
+    <h2>記事を検索</h2>
+    <label class="visually-hidden" for="wiki-search">記事検索</label>
+    <input id="wiki-search" class="wiki-search" type="search" placeholder="記事名・キーワード" autocomplete="off" data-index-url="{{ "search-index.json" | relURL }}" data-root="{{ site.Home.RelPermalink }}">
+    <div id="wiki-search-results" class="wiki-search-results" aria-live="polite"></div>
+    <h2>ナビゲーション</h2>
+    <a href="{{ site.Home.RelPermalink }}">メインページ</a>
+    <a href="{{ "wiki/" | relURL }}">すべての記事</a>
+    <a href="{{ "categories/" | relURL }}">カテゴリ一覧</a>
+    <h2>設定資料</h2>
+    {{ range site.Data.navigation }}<a href="{{ .path | relURL }}">{{ .title }}</a>{{ end }}
+    <h2>旧サイト</h2>
+    <a href="https://ssw-mod.fandom.com/ja/wiki/The_Sun_Shining_on_the_World_Wiki" target="_blank" rel="noopener noreferrer">Fandom版 SSW Wiki ↗</a>
+  </aside>
+  <main class="main-content" id="main">{{ block "main" . }}{{ end }}</main>
+  <aside class="right-rail" aria-label="検索・目次">
+    {{ if .IsPage }}
+      {{ if .TableOfContents }}<h2>目次</h2>{{ .TableOfContents }}{{ end }}
+    {{ else }}
+      <h2>探し方</h2><p>国・人物・戦闘など、<a href="{{ "categories/" | relURL }}">カテゴリ</a>から記事を探せます。</p>
+    {{ end }}
+  </aside>
+</div>
+<footer class="site-footer">SSW Wiki / GitHub Pages版 — Fandomから移植した本文のライセンスと元の編集履歴は各記事の出典欄をご確認ください。</footer>
+</body>
+</html>

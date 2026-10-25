@@ -1,0 +1,27 @@
+ページの本文に、[[ヘルプ:マジックワード|マジックワード]]の <code><nowiki>__NOINDEX__</nowiki></code> を含むページ。これらのページは検索エンジンに収集されません。このカテゴリは、[[mw:Help:Tracking_categories/ja|MediaWikiソフトウェアにより自動的に追加されます]]。
+
+{{DEFAULTSORT:けんさくえんしんにしゆうしゆうされないへえし}}
+<!-- 
+[[ar:تصنيف:صفحات غير مفهرسة]]
+[[ca:Categoria:Pàgines no indexades]]
+[[de:Kategorie:Nichtindizierte Seiten]]
+[[en:Category:Noindexed pages]]
+[[es:Categoría:Páginas no indizadas]]
+[[fa:رده:صفحه‌های نمایه‌نشده]]
+[[fi:Luokka:Indeksointikiellolliset sivut]]
+[[fr:Catégorie:Pages non indexées]]
+[[id:Kategori:Halaman yang tidak diindeks]]
+[[it:Categoria:Pagine non indicizzate]]
+[[ko:분류:색인에서 제외되는 문서]]
+[[nl:Categorie:Niet te indexeren pagina's]]
+[[pl:Kategoria:Strony nieindeksowane]]
+[[pt:Categoria:Páginas não indexadas]]
+[[ru:Категория:Неиндексируемые страницы]]
+[[th:หมวดหมู่:หน้าที่ไม่มีดัชนี]]
+[[tr:Kategori:Endeksli olmayan sayfalar]]
+[[uk:Категорія:Неіндексовані сторінки]]
+[[vi:Thể loại:Trang không hiển thị trong bộ máy tìm kiếm]]
+[[zh:Category:禁止索引的页面]]
+-->
+__NOINDEX__
+__HIDDENCAT__

@@ -1,0 +1,19 @@
+;解説
+:このテンプレートはファイルの使用目的が日本の著作権法第32条に基づく適切な引用であることを示すために使用されます。
+
+;必要なファイル
+* [[テンプレート:LicenseBox]]
+* [[:カテゴリ:自由利用できないファイル]]
+
+;構文
+:画像情報ページで <code>{{t|Non-free image}}</code> と入力してください。
+
+; 関連項目
+* Undertale Wikiの[[w:c:ja.undertale:テンプレート:Citation|テンプレート:Citation]] … 元になったテンプレート
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/記事ではないコンテンツ‎]]
+[[カテゴリ:著作権テンプレート]]
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]
+</noinclude>

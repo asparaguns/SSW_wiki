@@ -1,0 +1,5 @@
+{{LicenseBox
+|text=この著作物は[https://www.gnu.org/copyleft/lesser.html GNU劣等一般公衆ライセンス]の元で提供されています。
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | <includeonly>
+[[カテゴリ:LGPLファイル]]</includeonly>}}<noinclude>
+{{documentation}}</noinclude>

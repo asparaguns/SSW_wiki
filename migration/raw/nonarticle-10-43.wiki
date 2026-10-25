@@ -1,0 +1,47 @@
+;解説
+: このテンプレートは基本的なナビボックス (Navigation box) の生成に利用します。
+: [[#構文|構文]]の方法でこのテンプレートを使うこともできますが、[[#ナビボックスの作成|ナビボックスの作成]]の手順から、'''コードをコピーして新しいテンプレートを作成する'''方法をおすすめしています。
+
+;<span id="ナビボックスの作成">ナビボックスの作成</span>
+<createbox>
+prefix=Template:
+preload=Template:Navbox
+editintro=Template:Navbox/doc
+buttonlabel=ナビボックスを作成
+default = Navbox Foo
+</createbox>
+#ナビボックスの名前 (例では"Navbox Foo") を決めたら、上の入力エリアに入力して「ナビボックスを作成」ボタンを押し、一度ページを保存してください。その後、このページの以下の手順に従って編集しましょう。
+#先ほど作成したテンプレートページを、[[ヘルプ:ソースエディタ|ソースモード]]で編集します。
+#<code>{{{header}}}</code>を、ヘッダー (header) に表示させたいタイトルに変更します。
+#<code>{{{body}}}</code>を、本文の部分 (body) に表示させたいテキストに変更します。
+#節 (セクション) を追加する場合は、以下のコード4行を、既存の同じようなコードの真下に追加してください。
+<pre>|-
+! style="padding:0.2em 0.5em;" nowrap="nowrap" class="color1" | {{{header}}}
+|-
+| style="padding:0.2em 0.5em;" | {{{body}}}</pre>
+
+: 必要な分の節を追加して一度ページを保存してから、内容を置き換えると良いでしょう。
+: テンプレートの出力結果を確認しやすくするには、/docサブページを作成します。その際は、<code>{<nowiki/>{Navbox Foo}}</code>または最初に名付けたテンプレート名を忘れずに記入してください。
+
+; <span id="構文">構文</span>
+:以下のようにパラメータつきで表示したい場所で<code>{{t|navbox|...}}</code>と入力してください。
+;サンプル出力
+
+<pre>{{navbox
+|header=ボブの土地
+|body=この<nowiki>[[場所]]</nowiki>とあの<nowiki>[[場所]]</nowiki>。
+}}</pre>
+
+: は次のようになります...
+
+{{navbox
+|header=ボブの土地
+|body=この[{{fullurl:{{FULLPAGENAME:場所}} }} 場所]とあの[{{fullurl:{{FULLPAGENAME:場所}} }} 場所]。
+}}
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]
+[[カテゴリ:テンプレート/Navbox| ]]
+</includeonly><noinclude>[[カテゴリ:テンプレート文書]]</noinclude>

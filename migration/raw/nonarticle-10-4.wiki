@@ -1,0 +1,61 @@
+== 解説 ==
+このテンプレートはテンプレートに解説を挿入する目的で使用します。
+== 構文 ==
+テンプレートページの最後に<code><nowiki><noinclude></nowiki>{{t|documentation}}<nowiki></noinclude></nowiki></code>を追記してください。
+他のテンプレートページの /doc サブページを読み込む場合は、<code><nowiki><noinclude></nowiki>{{t|Documentation|解説ページ名}}<nowiki></noinclude></nowiki></code>を追記してください。
+
+== 使用法 ==
+
+=== テンプレートページ上での利用 ===
+これは通常のフォーマットでの使用例です。
+
+<pre>
+テンプレートコード<includeonly>テンプレートによって記事に挿入される任意のカテゴリ</includeonly><noinclude>
+{{documentation}}</noinclude>
+</pre>
+
+
+'''テンプレートによっては、( noinclude タグつきで) 挿入した<code><nowiki>{{documentation}}</nowiki></code>の前で table タグや div タグを閉じる必要がある場合があります。'''
+
+<code><nowiki>{{documentation}}</nowiki></code> の直前の改行は、解説テンプレートが前のコードに影響するのを防ぐのにも役立ちます。
+
+=== テンプレート解説ページ上での使用 ===
+The documentation page is usually located on the /doc subpage for a template, but a different page can be specified with the first parameter of the template (see [[#Syntax|Syntax]]).
+通常は、解説ページには以下のようなことを書くとよいでしょう。
+
+<pre>
+;解説
+:このテンプレートは……に使用します。
+
+;必要なファイル <!-- 空の場合はなし -->
+<!-- このテンプレートが使用しているモジュール、CSS、JS、画像、他のテンプレートについて -->
+:* 
+
+;構文
+:……に <code>{{t|テンプレート名|引数1 <!-- 空の場合はなし -->}}</code> と入力してください。
+
+;使用例
+:<code><nowiki>{{テンプレート名|入力1 <!-- 空の場合はなし -->|入力2= <!-- 空の場合はなし -->}}</nowiki></code> は次のようになります...
+:{{テンプレート名|入力1 <!-- 空の場合はなし -->|入力2= <!-- 空の場合はなし -->}}
+
+;関連項目 <!-- 空の場合はなし -->
+:* [[テンプレート:<!-- 関連するテンプレート -->]] <!-- 空の場合はなし -->
+:* [[<!-- その他の関連情報 -->]] <!-- 空の場合はなし -->
+
+<includeonly>
+{{DEFAULTSORT:テンプレート名が日本語の場合はソートキー}}
+<!-- テンプレートのカテゴリ・言語間リンク -->
+</includeonly><noinclude>
+{{DEFAULTSORT:テンプレート名が日本語の場合はソートキー}}[[カテゴリ:テンプレート文書]]
+<!-- テンプレート解説ページの言語間リンク -->
+</noinclude>
+</pre>
+
+上の「解説」「構文」「使用例」の出力セクションのいずれかまたはすべてを使用してください。「関連項目」や追加情報セクションを追加することもできます。
+
+上の例は[[テンプレート:T]]テンプレートも使用していることに注意してください。
+
+== テンプレートWikiの記事 ==
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+
+<includeonly>[[カテゴリ:テンプレート]]</includeonly><noinclude>[[カテゴリ:テンプレート文書|{{PAGENAME}}]]</noinclude>

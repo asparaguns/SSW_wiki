@@ -1,0 +1,64 @@
+<includeonly>{{
+#if: {{#if: {{{url|}}} | {{#if: {{{title|}}} |1}}}}
+  || [[Template:Cite web]]の呼び出しエラー：引数 '''url'''、'''title''' は必須です。
+}}{{
+#if: {{{archiveurl|}}}{{{archivedate|}}} 
+  | {{#if: {{#if: {{{archiveurl|}}}| {{#if: {{{archivedate|}}} |1}}}}
+    || [[Template:Cite web]]の呼び出しエラー：引数 '''archiveurl''' と '''archivedate''' は両方を指定してください。
+}}
+}}{{#if: {{{author|}}}{{{last|}}}
+  | {{#if: {{{authorlink|}}}
+    | [[{{{authorlink}}}|{{#if: {{{last|}}}
+      | {{{last}}}{{#if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}]]
+    | {{#if: {{{last|}}}
+      | {{{last}}}{{#if: {{{first|}}} | , {{{first}}} }}
+      | {{{author}}}
+    }}
+  }}
+}}{{#if: {{{author|}}}{{{last|}}}
+  | {{#if: {{{coauthors|}}}| <nowiki>;</nowiki>&#32;{{{coauthors}}} }}
+}}{{#if: {{{last|}}}{{{author|}}}
+  | ．&#32;}}{{
+  #if: {{{editor|}}}
+  | &#32;{{{editor}}}: 
+}}{{#if: {{{archiveurl|}}}
+    | {{#if: {{{archiveurl|}}} | {{#if: {{{title|}}} | [{{{archiveurl}}} {{{title}}}] }}}}
+    | {{#if: {{{url|}}} | {{#if: {{{title|}}} | [{{{url}}} {{{title}}}] }}}}
+}}{{#if: {{{language|}}} | &#32;<span style="font-size: 0.95em; font-weight: bold; color:#555; position: relative;">({{{language}}})</span> 
+}}{{#if: {{{format|}}}
+  | &#32;({{{format|}}})
+}}{{#if: {{{work|}}}
+  | ．&#32;''{{{work}}}''
+}}{{#if: {{{pages|}}}
+  | &#32;{{{pages}}}
+}}{{#if: {{{publisher|}}}
+  | {{#if: {{{work|}}}
+  | ，&#32;
+  | ．&#32;}}{{{publisher}}}
+}}{{#if: {{{date|}}} {{{year|}}}
+  |{{#if: {{{work|}}} {{{publisher|}}}
+   | ，&#32;
+   | ．&#32;}} }}{{#if: {{{date|}}}
+    | {{#time:Y年n月j日| {{{date}}} }}
+    | {{#if: {{{year|}}}
+      | {{#if: {{{month|}}}
+        | &#32;，{{{year}}}年{{{month}}}
+        | &#32;，{{{year}}}年
+      }}
+    }}
+}}．{{#if: {{{archivedate|}}}
+  | &#32;[{{{url}}} オリジナル]（{{#if: {{{archiveyear|}}} | {{{archiveyear}}} }}{{#time:Y年n月j日|{{{archivedate}}}}}時点）よりアーカイブ。
+}}{{#if: {{{doi|}}}
+  | &#32;[[Wikipedia:ja:デジタルオブジェクト識別子|DOI]]:[http://dx.doi.org/{{{doi|{{{doilabel|}}}}}} {{{doi}}}]。
+}}{{#if: {{{accessdate|}}}
+  | &#32;{{#if: {{{accessyear|}}} | {{{accessyear}}} }}{{#time:Y年n月j日|{{{accessdate}}}}} {{{post-text|閲覧。}}}
+}}{{#if: {{{accessmonthday|}}}
+  | &#32;{{#time:Y年n月j日|{{{accessmonthday}}} {{{accessyear}}} }} {{{post-text|閲覧。}}}
+}}{{#if: {{{accessdaymonth|}}}
+  | &#32;{{#time:Y年n月j日|{{{accessdaymonth}}} {{{accessyear}}} }} {{{post-text|閲覧。}}}
+}}{{#if: {{{quote|}}} 
+  | &nbsp;“{{{quote}}}”
+}}</includeonly><noinclude>{{documentation}}
+</noinclude>

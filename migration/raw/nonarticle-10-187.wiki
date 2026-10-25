@@ -1,0 +1,16 @@
+;解説
+:このテンプレートは、スペースが除去される箇所で、強制的に半角スペース「 」を表示させる際に使用します。
+
+;構文
+:<code><nowiki>{{Space}}</nowiki></code>を使用してこのテンプレートを挿入してください。
+: '''出力結果''': <code>{{Space}}</code>
+
+; テンプレートWikiの記事
+* [[w:c:ja.templates:テンプレート:{{BASEPAGENAME}}]]
+<includeonly>[[カテゴリ:テンプレート/データ]]
+<!--
+[[en:Template:Space]]
+-->
+</includeonly><noinclude>
+[[カテゴリ:テンプレート文書]]
+</noinclude>
